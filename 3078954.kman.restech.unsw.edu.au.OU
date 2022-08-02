@@ -1,0 +1,1330 @@
+/home/z5102138/anaconda3/envs/py36/bin/python
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_1.csv
+./test_glass0/model_MLP_30000_0.24/record_1/MLP_30000_0.24_1
+----------------------
+
+
+
+epoch 1, loss 0.7192, train acc 35.67%, f1 0.5000, precision 0.3354, recall 0.9821, auc 0.5172
+epoch 501, loss 0.3809, train acc 76.02%, f1 0.7248, precision 0.5806, recall 0.9643, auc 0.8126
+epoch 1001, loss 0.3567, train acc 80.12%, f1 0.7606, precision 0.6279, recall 0.9643, auc 0.8430
+epoch 1501, loss 0.2500, train acc 80.12%, f1 0.7606, precision 0.6279, recall 0.9643, auc 0.8430
+epoch 2001, loss 0.2820, train acc 82.46%, f1 0.7826, precision 0.6585, recall 0.9643, auc 0.8604
+epoch 2501, loss 0.2913, train acc 83.63%, f1 0.7941, precision 0.6750, recall 0.9643, auc 0.8691
+epoch 3001, loss 0.2890, train acc 84.21%, f1 0.8000, precision 0.6835, recall 0.9643, auc 0.8734
+epoch 3501, loss 0.3171, train acc 84.80%, f1 0.8088, precision 0.6875, recall 0.9821, auc 0.8824
+epoch 4001, loss 0.2262, train acc 85.96%, f1 0.8209, precision 0.7051, recall 0.9821, auc 0.8911
+epoch 4501, loss 0.2169, train acc 85.96%, f1 0.8209, precision 0.7051, recall 0.9821, auc 0.8911
+epoch 5001, loss 0.2658, train acc 85.96%, f1 0.8209, precision 0.7051, recall 0.9821, auc 0.8911
+epoch 5501, loss 0.2267, train acc 88.89%, f1 0.8527, precision 0.7534, recall 0.9821, auc 0.9128
+epoch 6001, loss 0.1928, train acc 90.06%, f1 0.8661, precision 0.7746, recall 0.9821, auc 0.9215
+epoch 6501, loss 0.1822, train acc 90.64%, f1 0.8750, precision 0.7778, recall 1.0000, auc 0.9304
+epoch 7001, loss 0.2327, train acc 90.64%, f1 0.8750, precision 0.7778, recall 1.0000, auc 0.9304
+epoch 7501, loss 0.2207, train acc 91.23%, f1 0.8819, precision 0.7887, recall 1.0000, auc 0.9348
+epoch 8001, loss 0.2840, train acc 91.81%, f1 0.8889, precision 0.8000, recall 1.0000, auc 0.9391
+epoch 8501, loss 0.2132, train acc 92.40%, f1 0.8960, precision 0.8116, recall 1.0000, auc 0.9435
+epoch 9001, loss 0.2109, train acc 92.40%, f1 0.8960, precision 0.8116, recall 1.0000, auc 0.9435
+epoch 9501, loss 0.1356, train acc 93.57%, f1 0.9106, precision 0.8358, recall 1.0000, auc 0.9522
+epoch 10001, loss 0.2585, train acc 93.57%, f1 0.9106, precision 0.8358, recall 1.0000, auc 0.9522
+epoch 10501, loss 0.1919, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 11001, loss 0.1841, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 11501, loss 0.1467, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 12001, loss 0.1144, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 12501, loss 0.1930, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 13001, loss 0.2152, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 13501, loss 0.1219, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 14001, loss 0.2224, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 14501, loss 0.1565, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 15001, loss 0.1442, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 15501, loss 0.1093, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 16001, loss 0.2253, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 16501, loss 0.1332, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 17001, loss 0.1108, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 17501, loss 0.1508, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 18001, loss 0.1225, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 18501, loss 0.1769, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 19001, loss 0.1759, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 19501, loss 0.1691, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 20001, loss 0.1048, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 20501, loss 0.1535, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 21001, loss 0.1165, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 21501, loss 0.2207, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 22001, loss 0.1521, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 22501, loss 0.1307, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 23001, loss 0.1468, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 23501, loss 0.1117, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 24001, loss 0.1170, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 24501, loss 0.1850, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 25001, loss 0.1075, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 25501, loss 0.1693, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 26001, loss 0.1804, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 26501, loss 0.0956, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 27001, loss 0.2595, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 27501, loss 0.0829, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 28001, loss 0.1399, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 28501, loss 0.1458, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 29001, loss 0.1110, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 29501, loss 0.1622, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+running_time is 1749.129043116
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_1.csv
+./test_glass0/standlization_data/glass0_std_test_1.csv
+MLP_30000_0.24
+normal_0.5
+./test_glass0/model_MLP_30000_0.24/record_1/MLP_30000_0.24_1
+./test_glass0/result_MLP_30000_0.24_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.5862068965517242
+
+the Fscore is 0.5384615384615384
+
+the precision is 0.3684210526315789
+
+the recall is 1.0
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_2.csv
+./test_glass0/model_MLP_30000_0.24/record_1/MLP_30000_0.24_2
+----------------------
+
+
+
+epoch 1, loss 0.6148, train acc 38.60%, f1 0.5161, precision 0.3478, recall 1.0000, auc 0.5435
+epoch 501, loss 0.3430, train acc 76.61%, f1 0.7297, precision 0.5870, recall 0.9643, auc 0.8169
+epoch 1001, loss 0.4155, train acc 83.04%, f1 0.7914, precision 0.6627, recall 0.9821, auc 0.8693
+epoch 1501, loss 0.2407, train acc 83.63%, f1 0.7971, precision 0.6707, recall 0.9821, auc 0.8737
+epoch 2001, loss 0.1791, train acc 85.96%, f1 0.8235, precision 0.7000, recall 1.0000, auc 0.8957
+epoch 2501, loss 0.2978, train acc 87.13%, f1 0.8358, precision 0.7179, recall 1.0000, auc 0.9043
+epoch 3001, loss 0.2079, train acc 88.30%, f1 0.8485, precision 0.7368, recall 1.0000, auc 0.9130
+epoch 3501, loss 0.2458, train acc 89.47%, f1 0.8615, precision 0.7568, recall 1.0000, auc 0.9217
+epoch 4001, loss 0.2689, train acc 90.64%, f1 0.8750, precision 0.7778, recall 1.0000, auc 0.9304
+epoch 4501, loss 0.2107, train acc 90.64%, f1 0.8750, precision 0.7778, recall 1.0000, auc 0.9304
+epoch 5001, loss 0.1629, train acc 91.23%, f1 0.8800, precision 0.7971, recall 0.9821, auc 0.9302
+epoch 5501, loss 0.1689, train acc 91.81%, f1 0.8889, precision 0.8000, recall 1.0000, auc 0.9391
+epoch 6001, loss 0.2498, train acc 91.81%, f1 0.8889, precision 0.8000, recall 1.0000, auc 0.9391
+epoch 6501, loss 0.2085, train acc 92.40%, f1 0.8960, precision 0.8116, recall 1.0000, auc 0.9435
+epoch 7001, loss 0.1622, train acc 93.57%, f1 0.9091, precision 0.8462, recall 0.9821, auc 0.9476
+epoch 7501, loss 0.1732, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 8001, loss 0.1408, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 8501, loss 0.1946, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 9001, loss 0.1471, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 9501, loss 0.1654, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 10001, loss 0.1873, train acc 95.91%, f1 0.9402, precision 0.9016, recall 0.9821, auc 0.9650
+epoch 10501, loss 0.1745, train acc 95.91%, f1 0.9402, precision 0.9016, recall 0.9821, auc 0.9650
+epoch 11001, loss 0.2040, train acc 95.91%, f1 0.9402, precision 0.9016, recall 0.9821, auc 0.9650
+epoch 11501, loss 0.1574, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 12001, loss 0.1964, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 12501, loss 0.1779, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 13001, loss 0.1092, train acc 96.49%, f1 0.9483, precision 0.9167, recall 0.9821, auc 0.9693
+epoch 13501, loss 0.1158, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 14001, loss 0.1309, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 14501, loss 0.1386, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 15001, loss 0.0869, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 15501, loss 0.1107, train acc 97.08%, f1 0.9565, precision 0.9322, recall 0.9821, auc 0.9737
+epoch 16001, loss 0.0972, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+epoch 16501, loss 0.0899, train acc 97.08%, f1 0.9565, precision 0.9322, recall 0.9821, auc 0.9737
+epoch 17001, loss 0.1260, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 17501, loss 0.1171, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+epoch 18001, loss 0.1190, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+epoch 18501, loss 0.0835, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 19001, loss 0.1402, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 19501, loss 0.1200, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 20001, loss 0.0938, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 20501, loss 0.1044, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 21001, loss 0.0955, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 21501, loss 0.1274, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 22001, loss 0.0969, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 22501, loss 0.1035, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 23001, loss 0.0988, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 23501, loss 0.1524, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 24001, loss 0.0803, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 24501, loss 0.0940, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 25001, loss 0.0971, train acc 99.42%, f1 0.9912, precision 0.9825, recall 1.0000, auc 0.9957
+epoch 25501, loss 0.1322, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 26001, loss 0.1075, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 26501, loss 0.1083, train acc 99.42%, f1 0.9912, precision 0.9825, recall 1.0000, auc 0.9957
+epoch 27001, loss 0.1082, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 27501, loss 0.1216, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 28001, loss 0.1126, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 28501, loss 0.1023, train acc 99.42%, f1 0.9912, precision 0.9825, recall 1.0000, auc 0.9957
+epoch 29001, loss 0.0976, train acc 99.42%, f1 0.9912, precision 0.9825, recall 1.0000, auc 0.9957
+epoch 29501, loss 0.1118, train acc 99.42%, f1 0.9912, precision 0.9825, recall 1.0000, auc 0.9957
+running_time is 1603.875295199
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+./test_glass0/standlization_data/glass0_std_train_2.csv
+./test_glass0/standlization_data/glass0_std_test_2.csv
+MLP_30000_0.24
+normal_0.5
+./test_glass0/model_MLP_30000_0.24/record_1/MLP_30000_0.24_2
+./test_glass0/result_MLP_30000_0.24_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.5
+
+the Fscore is 0.0
+
+the precision is 0.0
+
+the recall is 0.0
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_3.csv
+./test_glass0/model_MLP_30000_0.24/record_1/MLP_30000_0.24_3
+----------------------
+
+
+
+epoch 1, loss 0.7615, train acc 35.67%, f1 0.5045, precision 0.3373, recall 1.0000, auc 0.5217
+epoch 501, loss 0.3698, train acc 72.51%, f1 0.6887, precision 0.5474, recall 0.9286, auc 0.7773
+epoch 1001, loss 0.4021, train acc 75.44%, f1 0.7123, precision 0.5778, recall 0.9286, auc 0.7991
+epoch 1501, loss 0.3228, train acc 77.19%, f1 0.7273, precision 0.5977, recall 0.9286, auc 0.8121
+epoch 2001, loss 0.3420, train acc 80.12%, f1 0.7571, precision 0.6310, recall 0.9464, auc 0.8384
+epoch 2501, loss 0.2410, train acc 85.96%, f1 0.8154, precision 0.7162, recall 0.9464, auc 0.8819
+epoch 3001, loss 0.3013, train acc 87.13%, f1 0.8308, precision 0.7297, recall 0.9643, auc 0.8952
+epoch 3501, loss 0.2025, train acc 87.72%, f1 0.8397, precision 0.7333, recall 0.9821, auc 0.9041
+epoch 4001, loss 0.2683, train acc 88.30%, f1 0.8462, precision 0.7432, recall 0.9821, auc 0.9085
+epoch 4501, loss 0.2675, train acc 88.89%, f1 0.8527, precision 0.7534, recall 0.9821, auc 0.9128
+epoch 5001, loss 0.2377, train acc 91.23%, f1 0.8819, precision 0.7887, recall 1.0000, auc 0.9348
+epoch 5501, loss 0.1984, train acc 90.64%, f1 0.8730, precision 0.7857, recall 0.9821, auc 0.9259
+epoch 6001, loss 0.2166, train acc 91.81%, f1 0.8871, precision 0.8088, recall 0.9821, auc 0.9345
+epoch 6501, loss 0.1853, train acc 92.40%, f1 0.8943, precision 0.8209, recall 0.9821, auc 0.9389
+epoch 7001, loss 0.2323, train acc 92.40%, f1 0.8943, precision 0.8209, recall 0.9821, auc 0.9389
+epoch 7501, loss 0.1979, train acc 92.40%, f1 0.8943, precision 0.8209, recall 0.9821, auc 0.9389
+epoch 8001, loss 0.2259, train acc 93.57%, f1 0.9091, precision 0.8462, recall 0.9821, auc 0.9476
+epoch 8501, loss 0.1274, train acc 92.98%, f1 0.9016, precision 0.8333, recall 0.9821, auc 0.9432
+epoch 9001, loss 0.2031, train acc 93.57%, f1 0.9106, precision 0.8358, recall 1.0000, auc 0.9522
+epoch 9501, loss 0.2131, train acc 93.57%, f1 0.9091, precision 0.8462, recall 0.9821, auc 0.9476
+epoch 10001, loss 0.1471, train acc 93.57%, f1 0.9091, precision 0.8462, recall 0.9821, auc 0.9476
+epoch 10501, loss 0.1646, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 11001, loss 0.1605, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 11501, loss 0.1587, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 12001, loss 0.2176, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 12501, loss 0.1694, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 13001, loss 0.1209, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 13501, loss 0.2053, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 14001, loss 0.1491, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 14501, loss 0.1267, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 15001, loss 0.1677, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 15501, loss 0.1332, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 16001, loss 0.1407, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 16501, loss 0.1458, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 17001, loss 0.0955, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 17501, loss 0.1885, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 18001, loss 0.1378, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 18501, loss 0.1885, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 19001, loss 0.1782, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 19501, loss 0.1133, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 20001, loss 0.1238, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 20501, loss 0.1882, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 21001, loss 0.1330, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 21501, loss 0.1508, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 22001, loss 0.1375, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 22501, loss 0.1460, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 23001, loss 0.1186, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 23501, loss 0.1031, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 24001, loss 0.1294, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 24501, loss 0.0845, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 25001, loss 0.1629, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+epoch 25501, loss 0.1084, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 26001, loss 0.1410, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+epoch 26501, loss 0.1665, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+epoch 27001, loss 0.1450, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 27501, loss 0.1048, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 28001, loss 0.0982, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+epoch 28501, loss 0.1259, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 29001, loss 0.1187, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 29501, loss 0.1223, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+running_time is 1542.052700029
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_3.csv
+./test_glass0/standlization_data/glass0_std_test_3.csv
+MLP_30000_0.24
+normal_0.5
+./test_glass0/model_MLP_30000_0.24/record_1/MLP_30000_0.24_3
+./test_glass0/result_MLP_30000_0.24_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.6810344827586207
+
+the Fscore is 0.56
+
+the precision is 0.6363636363636364
+
+the recall is 0.5
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_4.csv
+./test_glass0/model_MLP_30000_0.24/record_1/MLP_30000_0.24_4
+----------------------
+
+
+
+epoch 1, loss 0.6984, train acc 39.77%, f1 0.5209, precision 0.3522, recall 1.0000, auc 0.5522
+epoch 501, loss 0.3621, train acc 74.27%, f1 0.7105, precision 0.5625, recall 0.9643, auc 0.7995
+epoch 1001, loss 0.3710, train acc 77.78%, f1 0.7361, precision 0.6023, recall 0.9464, auc 0.8210
+epoch 1501, loss 0.3385, train acc 78.95%, f1 0.7465, precision 0.6163, recall 0.9464, auc 0.8297
+epoch 2001, loss 0.3157, train acc 80.70%, f1 0.7660, precision 0.6353, recall 0.9643, auc 0.8474
+epoch 2501, loss 0.2883, train acc 81.29%, f1 0.7714, precision 0.6429, recall 0.9643, auc 0.8517
+epoch 3001, loss 0.2982, train acc 84.21%, f1 0.8000, precision 0.6835, recall 0.9643, auc 0.8734
+epoch 3501, loss 0.3306, train acc 85.38%, f1 0.8148, precision 0.6962, recall 0.9821, auc 0.8867
+epoch 4001, loss 0.2468, train acc 84.80%, f1 0.8116, precision 0.6829, recall 1.0000, auc 0.8870
+epoch 4501, loss 0.2561, train acc 87.13%, f1 0.8358, precision 0.7179, recall 1.0000, auc 0.9043
+epoch 5001, loss 0.2367, train acc 87.72%, f1 0.8372, precision 0.7397, recall 0.9643, auc 0.8995
+epoch 5501, loss 0.1965, train acc 87.72%, f1 0.8346, precision 0.7465, recall 0.9464, auc 0.8950
+epoch 6001, loss 0.1949, train acc 88.89%, f1 0.8527, precision 0.7534, recall 0.9821, auc 0.9128
+epoch 6501, loss 0.2690, train acc 88.30%, f1 0.8413, precision 0.7571, recall 0.9464, auc 0.8993
+epoch 7001, loss 0.2444, train acc 90.06%, f1 0.8661, precision 0.7746, recall 0.9821, auc 0.9215
+epoch 7501, loss 0.1640, train acc 90.06%, f1 0.8640, precision 0.7826, recall 0.9643, auc 0.9169
+epoch 8001, loss 0.2506, train acc 90.06%, f1 0.8640, precision 0.7826, recall 0.9643, auc 0.9169
+epoch 8501, loss 0.2226, train acc 90.06%, f1 0.8640, precision 0.7826, recall 0.9643, auc 0.9169
+epoch 9001, loss 0.2466, train acc 90.06%, f1 0.8640, precision 0.7826, recall 0.9643, auc 0.9169
+epoch 9501, loss 0.2159, train acc 89.47%, f1 0.8615, precision 0.7568, recall 1.0000, auc 0.9217
+epoch 10001, loss 0.2616, train acc 91.23%, f1 0.8819, precision 0.7887, recall 1.0000, auc 0.9348
+epoch 10501, loss 0.2577, train acc 91.23%, f1 0.8819, precision 0.7887, recall 1.0000, auc 0.9348
+epoch 11001, loss 0.1443, train acc 91.23%, f1 0.8819, precision 0.7887, recall 1.0000, auc 0.9348
+epoch 11501, loss 0.1766, train acc 91.23%, f1 0.8819, precision 0.7887, recall 1.0000, auc 0.9348
+epoch 12001, loss 0.2454, train acc 91.23%, f1 0.8819, precision 0.7887, recall 1.0000, auc 0.9348
+epoch 12501, loss 0.2152, train acc 91.23%, f1 0.8819, precision 0.7887, recall 1.0000, auc 0.9348
+epoch 13001, loss 0.1739, train acc 91.81%, f1 0.8889, precision 0.8000, recall 1.0000, auc 0.9391
+epoch 13501, loss 0.3351, train acc 91.81%, f1 0.8889, precision 0.8000, recall 1.0000, auc 0.9391
+epoch 14001, loss 0.2058, train acc 91.81%, f1 0.8889, precision 0.8000, recall 1.0000, auc 0.9391
+epoch 14501, loss 0.2284, train acc 91.23%, f1 0.8800, precision 0.7971, recall 0.9821, auc 0.9302
+epoch 15001, loss 0.1853, train acc 92.40%, f1 0.8943, precision 0.8209, recall 0.9821, auc 0.9389
+epoch 15501, loss 0.2392, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 16001, loss 0.1563, train acc 92.40%, f1 0.8943, precision 0.8209, recall 0.9821, auc 0.9389
+epoch 16501, loss 0.2089, train acc 92.40%, f1 0.8943, precision 0.8209, recall 0.9821, auc 0.9389
+epoch 17001, loss 0.2123, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 17501, loss 0.2117, train acc 93.57%, f1 0.9106, precision 0.8358, recall 1.0000, auc 0.9522
+epoch 18001, loss 0.2100, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 18501, loss 0.1462, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 19001, loss 0.1499, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 19501, loss 0.1425, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 20001, loss 0.2085, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 20501, loss 0.1559, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 21001, loss 0.1607, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 21501, loss 0.1268, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 22001, loss 0.2059, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 22501, loss 0.1649, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 23001, loss 0.1329, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 23501, loss 0.2159, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 24001, loss 0.1278, train acc 93.57%, f1 0.9106, precision 0.8358, recall 1.0000, auc 0.9522
+epoch 24501, loss 0.1771, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 25001, loss 0.1576, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 25501, loss 0.1640, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 26001, loss 0.1509, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 26501, loss 0.1814, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 27001, loss 0.1979, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 27501, loss 0.1905, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 28001, loss 0.1437, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 28501, loss 0.1817, train acc 93.57%, f1 0.9106, precision 0.8358, recall 1.0000, auc 0.9522
+epoch 29001, loss 0.1529, train acc 93.57%, f1 0.9106, precision 0.8358, recall 1.0000, auc 0.9522
+epoch 29501, loss 0.1174, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+running_time is 1625.2100699500002
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_4.csv
+./test_glass0/standlization_data/glass0_std_test_4.csv
+MLP_30000_0.24
+normal_0.5
+./test_glass0/model_MLP_30000_0.24/record_1/MLP_30000_0.24_4
+./test_glass0/result_MLP_30000_0.24_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.6884236453201971
+
+the Fscore is 0.6046511627906977
+
+the precision is 0.4482758620689655
+
+the recall is 0.9285714285714286
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_5.csv
+./test_glass0/model_MLP_30000_0.24/record_1/MLP_30000_0.24_5
+----------------------
+
+
+
+epoch 1, loss 0.6566, train acc 41.28%, f1 0.5258, precision 0.3567, recall 1.0000, auc 0.5647
+epoch 501, loss 0.3818, train acc 76.16%, f1 0.7248, precision 0.5806, recall 0.9643, auc 0.8140
+epoch 1001, loss 0.2792, train acc 80.23%, f1 0.7606, precision 0.6279, recall 0.9643, auc 0.8442
+epoch 1501, loss 0.3623, train acc 79.65%, f1 0.7552, precision 0.6207, recall 0.9643, auc 0.8399
+epoch 2001, loss 0.3321, train acc 82.56%, f1 0.7826, precision 0.6585, recall 0.9643, auc 0.8615
+epoch 2501, loss 0.3383, train acc 82.56%, f1 0.7826, precision 0.6585, recall 0.9643, auc 0.8615
+epoch 3001, loss 0.2272, train acc 83.14%, f1 0.7914, precision 0.6627, recall 0.9821, auc 0.8704
+epoch 3501, loss 0.2945, train acc 84.30%, f1 0.8029, precision 0.6790, recall 0.9821, auc 0.8790
+epoch 4001, loss 0.3966, train acc 84.88%, f1 0.8088, precision 0.6875, recall 0.9821, auc 0.8833
+epoch 4501, loss 0.2986, train acc 84.88%, f1 0.8088, precision 0.6875, recall 0.9821, auc 0.8833
+epoch 5001, loss 0.4107, train acc 85.47%, f1 0.8120, precision 0.7013, recall 0.9643, auc 0.8830
+epoch 5501, loss 0.3331, train acc 86.05%, f1 0.8235, precision 0.7000, recall 1.0000, auc 0.8966
+epoch 6001, loss 0.2229, train acc 88.37%, f1 0.8462, precision 0.7432, recall 0.9821, auc 0.9092
+epoch 6501, loss 0.2522, train acc 88.37%, f1 0.8462, precision 0.7432, recall 0.9821, auc 0.9092
+epoch 7001, loss 0.1949, train acc 88.37%, f1 0.8462, precision 0.7432, recall 0.9821, auc 0.9092
+epoch 7501, loss 0.2156, train acc 88.95%, f1 0.8550, precision 0.7467, recall 1.0000, auc 0.9181
+epoch 8001, loss 0.1547, train acc 91.28%, f1 0.8819, precision 0.7887, recall 1.0000, auc 0.9353
+epoch 8501, loss 0.2805, train acc 91.86%, f1 0.8889, precision 0.8000, recall 1.0000, auc 0.9397
+epoch 9001, loss 0.1649, train acc 91.86%, f1 0.8889, precision 0.8000, recall 1.0000, auc 0.9397
+epoch 9501, loss 0.1732, train acc 91.86%, f1 0.8889, precision 0.8000, recall 1.0000, auc 0.9397
+epoch 10001, loss 0.1487, train acc 91.28%, f1 0.8800, precision 0.7971, recall 0.9821, auc 0.9307
+epoch 10501, loss 0.1952, train acc 92.44%, f1 0.8960, precision 0.8116, recall 1.0000, auc 0.9440
+epoch 11001, loss 0.1913, train acc 91.86%, f1 0.8889, precision 0.8000, recall 1.0000, auc 0.9397
+epoch 11501, loss 0.1674, train acc 93.02%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9483
+epoch 12001, loss 0.1902, train acc 92.44%, f1 0.8943, precision 0.8209, recall 0.9821, auc 0.9393
+epoch 12501, loss 0.2243, train acc 93.02%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9483
+epoch 13001, loss 0.1757, train acc 93.60%, f1 0.9106, precision 0.8358, recall 1.0000, auc 0.9526
+epoch 13501, loss 0.1649, train acc 93.60%, f1 0.9106, precision 0.8358, recall 1.0000, auc 0.9526
+epoch 14001, loss 0.2172, train acc 93.60%, f1 0.9106, precision 0.8358, recall 1.0000, auc 0.9526
+epoch 14501, loss 0.1960, train acc 94.19%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9569
+epoch 15001, loss 0.2674, train acc 94.19%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9569
+epoch 15501, loss 0.1724, train acc 93.60%, f1 0.9106, precision 0.8358, recall 1.0000, auc 0.9526
+epoch 16001, loss 0.2351, train acc 94.19%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9569
+epoch 16501, loss 0.2032, train acc 95.35%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9655
+epoch 17001, loss 0.1250, train acc 95.35%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9655
+epoch 17501, loss 0.1449, train acc 95.35%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9655
+epoch 18001, loss 0.1438, train acc 95.35%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9655
+epoch 18501, loss 0.2008, train acc 95.35%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9655
+epoch 19001, loss 0.0992, train acc 95.35%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9655
+epoch 19501, loss 0.2011, train acc 95.35%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9655
+epoch 20001, loss 0.1610, train acc 95.35%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9655
+epoch 20501, loss 0.0844, train acc 95.35%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9655
+epoch 21001, loss 0.1382, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 21501, loss 0.1433, train acc 95.93%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9698
+epoch 22001, loss 0.1282, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 22501, loss 0.1022, train acc 97.09%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9784
+epoch 23001, loss 0.1429, train acc 97.09%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9784
+epoch 23501, loss 0.1339, train acc 97.09%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9784
+epoch 24001, loss 0.0968, train acc 97.09%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9784
+epoch 24501, loss 0.1865, train acc 97.09%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9784
+epoch 25001, loss 0.1223, train acc 97.09%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9784
+epoch 25501, loss 0.1258, train acc 97.09%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9784
+epoch 26001, loss 0.1805, train acc 97.09%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9784
+epoch 26501, loss 0.1320, train acc 97.09%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9784
+epoch 27001, loss 0.1759, train acc 97.09%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9784
+epoch 27501, loss 0.1766, train acc 97.09%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9784
+epoch 28001, loss 0.1824, train acc 97.09%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9784
+epoch 28501, loss 0.0698, train acc 97.09%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9784
+epoch 29001, loss 0.1257, train acc 97.09%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9784
+epoch 29501, loss 0.1190, train acc 97.09%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9784
+running_time is 1720.181465079
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_5.csv
+./test_glass0/standlization_data/glass0_std_test_5.csv
+MLP_30000_0.24
+normal_0.5
+./test_glass0/model_MLP_30000_0.24/record_1/MLP_30000_0.24_5
+./test_glass0/result_MLP_30000_0.24_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.767857142857143
+
+the Fscore is 0.6842105263157894
+
+the precision is 0.5416666666666666
+
+the recall is 0.9285714285714286
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_1.csv
+./test_glass0/model_MLP_30000_0.25/record_1/MLP_30000_0.25_1
+----------------------
+
+
+
+epoch 1, loss 0.5733, train acc 52.05%, f1 0.5729, precision 0.4044, recall 0.9821, auc 0.6389
+epoch 501, loss 0.3429, train acc 76.61%, f1 0.7297, precision 0.5870, recall 0.9643, auc 0.8169
+epoch 1001, loss 0.3402, train acc 80.70%, f1 0.7660, precision 0.6353, recall 0.9643, auc 0.8474
+epoch 1501, loss 0.3259, train acc 82.46%, f1 0.7826, precision 0.6585, recall 0.9643, auc 0.8604
+epoch 2001, loss 0.2887, train acc 83.04%, f1 0.7883, precision 0.6667, recall 0.9643, auc 0.8648
+epoch 2501, loss 0.2671, train acc 84.21%, f1 0.8000, precision 0.6835, recall 0.9643, auc 0.8734
+epoch 3001, loss 0.2698, train acc 85.38%, f1 0.8148, precision 0.6962, recall 0.9821, auc 0.8867
+epoch 3501, loss 0.2613, train acc 86.55%, f1 0.8271, precision 0.7143, recall 0.9821, auc 0.8954
+epoch 4001, loss 0.2581, train acc 88.30%, f1 0.8485, precision 0.7368, recall 1.0000, auc 0.9130
+epoch 4501, loss 0.2706, train acc 88.30%, f1 0.8485, precision 0.7368, recall 1.0000, auc 0.9130
+epoch 5001, loss 0.3065, train acc 89.47%, f1 0.8615, precision 0.7568, recall 1.0000, auc 0.9217
+epoch 5501, loss 0.2211, train acc 90.06%, f1 0.8682, precision 0.7671, recall 1.0000, auc 0.9261
+epoch 6001, loss 0.2630, train acc 90.06%, f1 0.8682, precision 0.7671, recall 1.0000, auc 0.9261
+epoch 6501, loss 0.1815, train acc 90.64%, f1 0.8750, precision 0.7778, recall 1.0000, auc 0.9304
+epoch 7001, loss 0.2048, train acc 91.23%, f1 0.8819, precision 0.7887, recall 1.0000, auc 0.9348
+epoch 7501, loss 0.1909, train acc 91.23%, f1 0.8819, precision 0.7887, recall 1.0000, auc 0.9348
+epoch 8001, loss 0.1869, train acc 91.81%, f1 0.8889, precision 0.8000, recall 1.0000, auc 0.9391
+epoch 8501, loss 0.1817, train acc 91.81%, f1 0.8889, precision 0.8000, recall 1.0000, auc 0.9391
+epoch 9001, loss 0.2026, train acc 92.40%, f1 0.8960, precision 0.8116, recall 1.0000, auc 0.9435
+epoch 9501, loss 0.2373, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 10001, loss 0.1579, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 10501, loss 0.2132, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 11001, loss 0.1890, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 11501, loss 0.1617, train acc 93.57%, f1 0.9106, precision 0.8358, recall 1.0000, auc 0.9522
+epoch 12001, loss 0.1816, train acc 93.57%, f1 0.9106, precision 0.8358, recall 1.0000, auc 0.9522
+epoch 12501, loss 0.2689, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 13001, loss 0.1497, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 13501, loss 0.2454, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 14001, loss 0.1700, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 14501, loss 0.2293, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 15001, loss 0.1623, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 15501, loss 0.2127, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 16001, loss 0.1378, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 16501, loss 0.1769, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 17001, loss 0.2366, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 17501, loss 0.1612, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 18001, loss 0.1881, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 18501, loss 0.2440, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 19001, loss 0.1910, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 19501, loss 0.1553, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 20001, loss 0.2430, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 20501, loss 0.2375, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 21001, loss 0.1560, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 21501, loss 0.1421, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 22001, loss 0.2145, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 22501, loss 0.1307, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 23001, loss 0.1516, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 23501, loss 0.1732, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 24001, loss 0.1654, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 24501, loss 0.1758, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 25001, loss 0.1825, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 25501, loss 0.1661, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 26001, loss 0.1205, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 26501, loss 0.1584, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 27001, loss 0.1160, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 27501, loss 0.1711, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 28001, loss 0.2924, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 28501, loss 0.1769, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 29001, loss 0.2254, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 29501, loss 0.1307, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+running_time is 1503.5964444160002
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_1.csv
+./test_glass0/standlization_data/glass0_std_test_1.csv
+MLP_30000_0.25
+normal_0.5
+./test_glass0/model_MLP_30000_0.25/record_1/MLP_30000_0.25_1
+./test_glass0/result_MLP_30000_0.25_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.5591133004926109
+
+the Fscore is 0.4137931034482759
+
+the precision is 0.4
+
+the recall is 0.42857142857142855
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_2.csv
+./test_glass0/model_MLP_30000_0.25/record_1/MLP_30000_0.25_2
+----------------------
+
+
+
+epoch 1, loss 0.5953, train acc 35.09%, f1 0.5022, precision 0.3353, recall 1.0000, auc 0.5174
+epoch 501, loss 0.3701, train acc 78.95%, f1 0.7500, precision 0.6136, recall 0.9643, auc 0.8343
+epoch 1001, loss 0.3701, train acc 81.87%, f1 0.7801, precision 0.6471, recall 0.9821, auc 0.8606
+epoch 1501, loss 0.3414, train acc 84.80%, f1 0.8088, precision 0.6875, recall 0.9821, auc 0.8824
+epoch 2001, loss 0.3446, train acc 85.96%, f1 0.8235, precision 0.7000, recall 1.0000, auc 0.8957
+epoch 2501, loss 0.2262, train acc 87.13%, f1 0.8358, precision 0.7179, recall 1.0000, auc 0.9043
+epoch 3001, loss 0.2452, train acc 87.13%, f1 0.8358, precision 0.7179, recall 1.0000, auc 0.9043
+epoch 3501, loss 0.2722, train acc 88.89%, f1 0.8550, precision 0.7467, recall 1.0000, auc 0.9174
+epoch 4001, loss 0.2317, train acc 90.64%, f1 0.8750, precision 0.7778, recall 1.0000, auc 0.9304
+epoch 4501, loss 0.1757, train acc 90.64%, f1 0.8750, precision 0.7778, recall 1.0000, auc 0.9304
+epoch 5001, loss 0.2066, train acc 90.64%, f1 0.8750, precision 0.7778, recall 1.0000, auc 0.9304
+epoch 5501, loss 0.2294, train acc 91.23%, f1 0.8819, precision 0.7887, recall 1.0000, auc 0.9348
+epoch 6001, loss 0.2605, train acc 91.23%, f1 0.8819, precision 0.7887, recall 1.0000, auc 0.9348
+epoch 6501, loss 0.1568, train acc 91.23%, f1 0.8819, precision 0.7887, recall 1.0000, auc 0.9348
+epoch 7001, loss 0.2331, train acc 91.23%, f1 0.8819, precision 0.7887, recall 1.0000, auc 0.9348
+epoch 7501, loss 0.1913, train acc 91.81%, f1 0.8889, precision 0.8000, recall 1.0000, auc 0.9391
+epoch 8001, loss 0.1873, train acc 91.81%, f1 0.8889, precision 0.8000, recall 1.0000, auc 0.9391
+epoch 8501, loss 0.1835, train acc 92.98%, f1 0.9016, precision 0.8333, recall 0.9821, auc 0.9432
+epoch 9001, loss 0.0904, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 9501, loss 0.1046, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 10001, loss 0.1731, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 10501, loss 0.1749, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 11001, loss 0.1862, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 11501, loss 0.1548, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 12001, loss 0.1444, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 12501, loss 0.0975, train acc 96.49%, f1 0.9483, precision 0.9167, recall 0.9821, auc 0.9693
+epoch 13001, loss 0.1437, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 13501, loss 0.1854, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 14001, loss 0.1782, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 14501, loss 0.1627, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 15001, loss 0.1798, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 15501, loss 0.1831, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 16001, loss 0.1348, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 16501, loss 0.1667, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 17001, loss 0.1283, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 17501, loss 0.1754, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 18001, loss 0.1564, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 18501, loss 0.1463, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+epoch 19001, loss 0.0971, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+epoch 19501, loss 0.1590, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+epoch 20001, loss 0.1362, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+epoch 20501, loss 0.1188, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+epoch 21001, loss 0.0650, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+epoch 21501, loss 0.0877, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 22001, loss 0.0869, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 22501, loss 0.1502, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 23001, loss 0.1048, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 23501, loss 0.0953, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 24001, loss 0.1421, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 24501, loss 0.1438, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 25001, loss 0.1624, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 25501, loss 0.1224, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 26001, loss 0.1168, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 26501, loss 0.0870, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 27001, loss 0.1063, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 27501, loss 0.1333, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 28001, loss 0.1018, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 28501, loss 0.1333, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 29001, loss 0.1227, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 29501, loss 0.0979, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+running_time is 1708.033655506
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_2.csv
+./test_glass0/standlization_data/glass0_std_test_2.csv
+MLP_30000_0.25
+normal_0.5
+./test_glass0/model_MLP_30000_0.25/record_1/MLP_30000_0.25_2
+./test_glass0/result_MLP_30000_0.25_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.4827586206896552
+
+the Fscore is 0.0
+
+the precision is 0.0
+
+the recall is 0.0
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_3.csv
+./test_glass0/model_MLP_30000_0.25/record_1/MLP_30000_0.25_3
+----------------------
+
+
+
+epoch 1, loss 0.6612, train acc 38.60%, f1 0.5161, precision 0.3478, recall 1.0000, auc 0.5435
+epoch 501, loss 0.4609, train acc 73.10%, f1 0.7013, precision 0.5510, recall 0.9643, auc 0.7908
+epoch 1001, loss 0.3152, train acc 73.68%, f1 0.6980, precision 0.5591, recall 0.9286, auc 0.7860
+epoch 1501, loss 0.3629, train acc 76.02%, f1 0.7172, precision 0.5843, recall 0.9286, auc 0.8034
+epoch 2001, loss 0.2291, train acc 77.78%, f1 0.7361, precision 0.6023, recall 0.9464, auc 0.8210
+epoch 2501, loss 0.2829, train acc 79.53%, f1 0.7518, precision 0.6235, recall 0.9464, auc 0.8341
+epoch 3001, loss 0.3510, train acc 80.12%, f1 0.7606, precision 0.6279, recall 0.9643, auc 0.8430
+epoch 3501, loss 0.3228, train acc 84.21%, f1 0.8000, precision 0.6835, recall 0.9643, auc 0.8734
+epoch 4001, loss 0.3002, train acc 84.21%, f1 0.8000, precision 0.6835, recall 0.9643, auc 0.8734
+epoch 4501, loss 0.2932, train acc 85.38%, f1 0.8148, precision 0.6962, recall 0.9821, auc 0.8867
+epoch 5001, loss 0.1750, train acc 86.55%, f1 0.8244, precision 0.7200, recall 0.9643, auc 0.8908
+epoch 5501, loss 0.1984, train acc 89.47%, f1 0.8594, precision 0.7639, recall 0.9821, auc 0.9172
+epoch 6001, loss 0.2092, train acc 89.47%, f1 0.8571, precision 0.7714, recall 0.9643, auc 0.9126
+epoch 6501, loss 0.2048, train acc 90.06%, f1 0.8661, precision 0.7746, recall 0.9821, auc 0.9215
+epoch 7001, loss 0.2011, train acc 91.23%, f1 0.8800, precision 0.7971, recall 0.9821, auc 0.9302
+epoch 7501, loss 0.2241, train acc 91.81%, f1 0.8871, precision 0.8088, recall 0.9821, auc 0.9345
+epoch 8001, loss 0.2057, train acc 92.40%, f1 0.8960, precision 0.8116, recall 1.0000, auc 0.9435
+epoch 8501, loss 0.1430, train acc 91.81%, f1 0.8871, precision 0.8088, recall 0.9821, auc 0.9345
+epoch 9001, loss 0.1893, train acc 92.98%, f1 0.9016, precision 0.8333, recall 0.9821, auc 0.9432
+epoch 9501, loss 0.1772, train acc 93.57%, f1 0.9091, precision 0.8462, recall 0.9821, auc 0.9476
+epoch 10001, loss 0.1783, train acc 93.57%, f1 0.9106, precision 0.8358, recall 1.0000, auc 0.9522
+epoch 10501, loss 0.1770, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 11001, loss 0.1496, train acc 93.57%, f1 0.9091, precision 0.8462, recall 0.9821, auc 0.9476
+epoch 11501, loss 0.1420, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 12001, loss 0.2426, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 12501, loss 0.1465, train acc 94.74%, f1 0.9244, precision 0.8730, recall 0.9821, auc 0.9563
+epoch 13001, loss 0.1328, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 13501, loss 0.1197, train acc 95.32%, f1 0.9322, precision 0.8871, recall 0.9821, auc 0.9606
+epoch 14001, loss 0.1576, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 14501, loss 0.2004, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 15001, loss 0.1179, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 15501, loss 0.1531, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 16001, loss 0.0937, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 16501, loss 0.1171, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 17001, loss 0.1189, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 17501, loss 0.1061, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 18001, loss 0.1283, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 18501, loss 0.1322, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 19001, loss 0.1211, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 19501, loss 0.1400, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 20001, loss 0.1043, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 20501, loss 0.0835, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+epoch 21001, loss 0.1350, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+epoch 21501, loss 0.1239, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+epoch 22001, loss 0.1495, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+epoch 22501, loss 0.1618, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 23001, loss 0.1399, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 23501, loss 0.2177, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 24001, loss 0.1319, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+epoch 24501, loss 0.1026, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 25001, loss 0.1160, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 25501, loss 0.1462, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 26001, loss 0.1264, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 26501, loss 0.1263, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 27001, loss 0.1137, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 27501, loss 0.0652, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 28001, loss 0.1016, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 28501, loss 0.0794, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 29001, loss 0.1664, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 29501, loss 0.1264, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+running_time is 1538.142126813
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_3.csv
+./test_glass0/standlization_data/glass0_std_test_3.csv
+MLP_30000_0.25
+normal_0.5
+./test_glass0/model_MLP_30000_0.25/record_1/MLP_30000_0.25_3
+./test_glass0/result_MLP_30000_0.25_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.7216748768472907
+
+the Fscore is 0.631578947368421
+
+the precision is 0.5
+
+the recall is 0.8571428571428571
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_4.csv
+./test_glass0/model_MLP_30000_0.25/record_1/MLP_30000_0.25_4
+----------------------
+
+
+
+epoch 1, loss 0.6392, train acc 33.92%, f1 0.4978, precision 0.3314, recall 1.0000, auc 0.5087
+epoch 501, loss 0.4736, train acc 74.85%, f1 0.7152, precision 0.5684, recall 0.9643, auc 0.8039
+epoch 1001, loss 0.3381, train acc 76.61%, f1 0.7260, precision 0.5889, recall 0.9464, auc 0.8123
+epoch 1501, loss 0.3068, train acc 78.95%, f1 0.7465, precision 0.6163, recall 0.9464, auc 0.8297
+epoch 2001, loss 0.3474, train acc 80.70%, f1 0.7660, precision 0.6353, recall 0.9643, auc 0.8474
+epoch 2501, loss 0.2537, train acc 84.21%, f1 0.8000, precision 0.6835, recall 0.9643, auc 0.8734
+epoch 3001, loss 0.2585, train acc 85.96%, f1 0.8182, precision 0.7105, recall 0.9643, auc 0.8865
+epoch 3501, loss 0.2569, train acc 87.72%, f1 0.8397, precision 0.7333, recall 0.9821, auc 0.9041
+epoch 4001, loss 0.2445, train acc 87.72%, f1 0.8397, precision 0.7333, recall 0.9821, auc 0.9041
+epoch 4501, loss 0.1914, train acc 90.06%, f1 0.8661, precision 0.7746, recall 0.9821, auc 0.9215
+epoch 5001, loss 0.2817, train acc 90.06%, f1 0.8661, precision 0.7746, recall 0.9821, auc 0.9215
+epoch 5501, loss 0.2406, train acc 90.06%, f1 0.8682, precision 0.7671, recall 1.0000, auc 0.9261
+epoch 6001, loss 0.2727, train acc 91.81%, f1 0.8871, precision 0.8088, recall 0.9821, auc 0.9345
+epoch 6501, loss 0.1971, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 7001, loss 0.2218, train acc 92.98%, f1 0.9016, precision 0.8333, recall 0.9821, auc 0.9432
+epoch 7501, loss 0.1769, train acc 92.98%, f1 0.9016, precision 0.8333, recall 0.9821, auc 0.9432
+epoch 8001, loss 0.1733, train acc 93.57%, f1 0.9106, precision 0.8358, recall 1.0000, auc 0.9522
+epoch 8501, loss 0.1689, train acc 92.98%, f1 0.9016, precision 0.8333, recall 0.9821, auc 0.9432
+epoch 9001, loss 0.2060, train acc 93.57%, f1 0.9091, precision 0.8462, recall 0.9821, auc 0.9476
+epoch 9501, loss 0.1835, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 10001, loss 0.2366, train acc 94.15%, f1 0.9167, precision 0.8594, recall 0.9821, auc 0.9519
+epoch 10501, loss 0.1751, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 11001, loss 0.2054, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 11501, loss 0.1557, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 12001, loss 0.1793, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 12501, loss 0.1445, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 13001, loss 0.1602, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 13501, loss 0.1081, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 14001, loss 0.1615, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 14501, loss 0.1645, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 15001, loss 0.0888, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 15501, loss 0.1735, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 16001, loss 0.1262, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 16501, loss 0.2643, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 17001, loss 0.1953, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 17501, loss 0.1239, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 18001, loss 0.1133, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 18501, loss 0.1573, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 19001, loss 0.1130, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 19501, loss 0.1865, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 20001, loss 0.1156, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 20501, loss 0.1312, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 21001, loss 0.1512, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 21501, loss 0.1665, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 22001, loss 0.1776, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 22501, loss 0.1353, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 23001, loss 0.1308, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 23501, loss 0.1785, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 24001, loss 0.1649, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 24501, loss 0.2071, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 25001, loss 0.1298, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 25501, loss 0.1379, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 26001, loss 0.1936, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 26501, loss 0.1656, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 27001, loss 0.2008, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 27501, loss 0.1274, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 28001, loss 0.1178, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 28501, loss 0.1578, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 29001, loss 0.1816, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 29501, loss 0.1493, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+running_time is 1711.327368526
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_4.csv
+./test_glass0/standlization_data/glass0_std_test_4.csv
+MLP_30000_0.25
+normal_0.5
+./test_glass0/model_MLP_30000_0.25/record_1/MLP_30000_0.25_4
+./test_glass0/result_MLP_30000_0.25_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.5541871921182266
+
+the Fscore is 0.23529411764705882
+
+the precision is 0.6666666666666666
+
+the recall is 0.14285714285714285
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_5.csv
+./test_glass0/model_MLP_30000_0.25/record_1/MLP_30000_0.25_5
+----------------------
+
+
+
+epoch 1, loss 0.6172, train acc 37.79%, f1 0.5114, precision 0.3436, recall 1.0000, auc 0.5388
+epoch 501, loss 0.3389, train acc 76.16%, f1 0.7211, precision 0.5824, recall 0.9464, auc 0.8094
+epoch 1001, loss 0.4056, train acc 79.65%, f1 0.7552, precision 0.6207, recall 0.9643, auc 0.8399
+epoch 1501, loss 0.3142, train acc 81.40%, f1 0.7714, precision 0.6429, recall 0.9643, auc 0.8528
+epoch 2001, loss 0.3374, train acc 82.56%, f1 0.7826, precision 0.6585, recall 0.9643, auc 0.8615
+epoch 2501, loss 0.2045, train acc 85.47%, f1 0.8148, precision 0.6962, recall 0.9821, auc 0.8876
+epoch 3001, loss 0.3625, train acc 86.05%, f1 0.8209, precision 0.7051, recall 0.9821, auc 0.8919
+epoch 3501, loss 0.3238, train acc 86.63%, f1 0.8271, precision 0.7143, recall 0.9821, auc 0.8962
+epoch 4001, loss 0.2224, train acc 87.21%, f1 0.8333, precision 0.7237, recall 0.9821, auc 0.9006
+epoch 4501, loss 0.2784, train acc 87.21%, f1 0.8358, precision 0.7179, recall 1.0000, auc 0.9052
+epoch 5001, loss 0.3091, train acc 88.37%, f1 0.8485, precision 0.7368, recall 1.0000, auc 0.9138
+epoch 5501, loss 0.2365, train acc 88.95%, f1 0.8527, precision 0.7534, recall 0.9821, auc 0.9135
+epoch 6001, loss 0.2526, train acc 89.53%, f1 0.8615, precision 0.7568, recall 1.0000, auc 0.9224
+epoch 6501, loss 0.2081, train acc 90.70%, f1 0.8750, precision 0.7778, recall 1.0000, auc 0.9310
+epoch 7001, loss 0.1311, train acc 91.86%, f1 0.8889, precision 0.8000, recall 1.0000, auc 0.9397
+epoch 7501, loss 0.1762, train acc 93.02%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9483
+epoch 8001, loss 0.1785, train acc 92.44%, f1 0.8943, precision 0.8209, recall 0.9821, auc 0.9393
+epoch 8501, loss 0.1490, train acc 93.02%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9483
+epoch 9001, loss 0.1703, train acc 93.60%, f1 0.9106, precision 0.8358, recall 1.0000, auc 0.9526
+epoch 9501, loss 0.1873, train acc 93.60%, f1 0.9106, precision 0.8358, recall 1.0000, auc 0.9526
+epoch 10001, loss 0.1706, train acc 94.19%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9569
+epoch 10501, loss 0.2088, train acc 94.19%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9569
+epoch 11001, loss 0.2034, train acc 94.19%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9569
+epoch 11501, loss 0.1563, train acc 94.77%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9612
+epoch 12001, loss 0.1801, train acc 94.19%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9569
+epoch 12501, loss 0.1511, train acc 94.77%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9612
+epoch 13001, loss 0.1413, train acc 94.77%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9612
+epoch 13501, loss 0.1444, train acc 94.77%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9612
+epoch 14001, loss 0.2427, train acc 95.93%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9698
+epoch 14501, loss 0.1451, train acc 95.93%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9698
+epoch 15001, loss 0.1672, train acc 95.93%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9698
+epoch 15501, loss 0.1784, train acc 95.93%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9698
+epoch 16001, loss 0.1569, train acc 95.93%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9698
+epoch 16501, loss 0.1874, train acc 95.93%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9698
+epoch 17001, loss 0.1302, train acc 95.93%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9698
+epoch 17501, loss 0.1313, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 18001, loss 0.1281, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 18501, loss 0.1962, train acc 95.93%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9698
+epoch 19001, loss 0.1486, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 19501, loss 0.1168, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 20001, loss 0.1683, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 20501, loss 0.1129, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 21001, loss 0.1173, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 21501, loss 0.1593, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 22001, loss 0.1707, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 22501, loss 0.1800, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 23001, loss 0.1215, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 23501, loss 0.1128, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 24001, loss 0.1318, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 24501, loss 0.0765, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 25001, loss 0.0879, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 25501, loss 0.1331, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 26001, loss 0.1575, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 26501, loss 0.1340, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 27001, loss 0.1042, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 27501, loss 0.1256, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 28001, loss 0.1464, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 28501, loss 0.1406, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 29001, loss 0.1581, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+epoch 29501, loss 0.1517, train acc 96.51%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9741
+running_time is 1548.673974755
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_5.csv
+./test_glass0/standlization_data/glass0_std_test_5.csv
+MLP_30000_0.25
+normal_0.5
+./test_glass0/model_MLP_30000_0.25/record_1/MLP_30000_0.25_5
+./test_glass0/result_MLP_30000_0.25_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.5535714285714285
+
+the Fscore is 0.23529411764705882
+
+the precision is 0.6666666666666666
+
+the recall is 0.14285714285714285
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_1.csv
+./test_glass0/model_MLP_30000_0.26/record_1/MLP_30000_0.26_1
+----------------------
+
+
+
+epoch 1, loss 0.5741, train acc 56.14%, f1 0.5989, precision 0.4275, recall 1.0000, auc 0.6739
+epoch 501, loss 0.3542, train acc 76.61%, f1 0.7297, precision 0.5870, recall 0.9643, auc 0.8169
+epoch 1001, loss 0.2831, train acc 80.70%, f1 0.7660, precision 0.6353, recall 0.9643, auc 0.8474
+epoch 1501, loss 0.2948, train acc 81.87%, f1 0.7770, precision 0.6506, recall 0.9643, auc 0.8561
+epoch 2001, loss 0.3132, train acc 83.04%, f1 0.7883, precision 0.6667, recall 0.9643, auc 0.8648
+epoch 2501, loss 0.3200, train acc 84.21%, f1 0.8000, precision 0.6835, recall 0.9643, auc 0.8734
+epoch 3001, loss 0.2290, train acc 85.38%, f1 0.8148, precision 0.6962, recall 0.9821, auc 0.8867
+epoch 3501, loss 0.3047, train acc 85.38%, f1 0.8148, precision 0.6962, recall 0.9821, auc 0.8867
+epoch 4001, loss 0.3174, train acc 86.55%, f1 0.8296, precision 0.7089, recall 1.0000, auc 0.9000
+epoch 4501, loss 0.2350, train acc 87.13%, f1 0.8358, precision 0.7179, recall 1.0000, auc 0.9043
+epoch 5001, loss 0.2005, train acc 88.89%, f1 0.8550, precision 0.7467, recall 1.0000, auc 0.9174
+epoch 5501, loss 0.2374, train acc 89.47%, f1 0.8615, precision 0.7568, recall 1.0000, auc 0.9217
+epoch 6001, loss 0.2493, train acc 90.64%, f1 0.8750, precision 0.7778, recall 1.0000, auc 0.9304
+epoch 6501, loss 0.1821, train acc 91.81%, f1 0.8889, precision 0.8000, recall 1.0000, auc 0.9391
+epoch 7001, loss 0.2739, train acc 92.40%, f1 0.8960, precision 0.8116, recall 1.0000, auc 0.9435
+epoch 7501, loss 0.1870, train acc 92.40%, f1 0.8960, precision 0.8116, recall 1.0000, auc 0.9435
+epoch 8001, loss 0.1661, train acc 92.40%, f1 0.8960, precision 0.8116, recall 1.0000, auc 0.9435
+epoch 8501, loss 0.2319, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 9001, loss 0.2582, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 9501, loss 0.1689, train acc 93.57%, f1 0.9106, precision 0.8358, recall 1.0000, auc 0.9522
+epoch 10001, loss 0.1725, train acc 93.57%, f1 0.9106, precision 0.8358, recall 1.0000, auc 0.9522
+epoch 10501, loss 0.2025, train acc 93.57%, f1 0.9106, precision 0.8358, recall 1.0000, auc 0.9522
+epoch 11001, loss 0.2142, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 11501, loss 0.2416, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 12001, loss 0.2100, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 12501, loss 0.1426, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 13001, loss 0.1623, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 13501, loss 0.1899, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 14001, loss 0.2144, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 14501, loss 0.2262, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 15001, loss 0.1660, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 15501, loss 0.1359, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 16001, loss 0.1690, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 16501, loss 0.1850, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 17001, loss 0.1949, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 17501, loss 0.2094, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 18001, loss 0.2353, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 18501, loss 0.1555, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 19001, loss 0.1307, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 19501, loss 0.1856, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 20001, loss 0.1688, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 20501, loss 0.2547, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 21001, loss 0.1811, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 21501, loss 0.2112, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 22001, loss 0.1929, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 22501, loss 0.1756, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 23001, loss 0.1625, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 23501, loss 0.1271, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 24001, loss 0.1633, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 24501, loss 0.1836, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 25001, loss 0.1055, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 25501, loss 0.2255, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 26001, loss 0.1503, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 26501, loss 0.2167, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 27001, loss 0.2194, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 27501, loss 0.1895, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 28001, loss 0.2045, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 28501, loss 0.1719, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 29001, loss 0.2015, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 29501, loss 0.2224, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+running_time is 1676.359737383
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_1.csv
+./test_glass0/standlization_data/glass0_std_test_1.csv
+MLP_30000_0.26
+normal_0.5
+./test_glass0/model_MLP_30000_0.26/record_1/MLP_30000_0.26_1
+./test_glass0/result_MLP_30000_0.26_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.5775862068965517
+
+the Fscore is 0.45161290322580644
+
+the precision is 0.4117647058823529
+
+the recall is 0.5
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_2.csv
+./test_glass0/model_MLP_30000_0.26/record_1/MLP_30000_0.26_2
+----------------------
+
+
+
+epoch 1, loss 0.7125, train acc 36.26%, f1 0.5068, precision 0.3394, recall 1.0000, auc 0.5261
+epoch 501, loss 0.3415, train acc 77.19%, f1 0.7347, precision 0.5934, recall 0.9643, auc 0.8213
+epoch 1001, loss 0.2937, train acc 81.29%, f1 0.7746, precision 0.6395, recall 0.9821, auc 0.8563
+epoch 1501, loss 0.2682, train acc 82.46%, f1 0.7857, precision 0.6548, recall 0.9821, auc 0.8650
+epoch 2001, loss 0.2747, train acc 85.38%, f1 0.8175, precision 0.6914, recall 1.0000, auc 0.8913
+epoch 2501, loss 0.2765, train acc 87.13%, f1 0.8358, precision 0.7179, recall 1.0000, auc 0.9043
+epoch 3001, loss 0.2663, train acc 88.30%, f1 0.8485, precision 0.7368, recall 1.0000, auc 0.9130
+epoch 3501, loss 0.2127, train acc 90.06%, f1 0.8682, precision 0.7671, recall 1.0000, auc 0.9261
+epoch 4001, loss 0.2183, train acc 90.06%, f1 0.8661, precision 0.7746, recall 0.9821, auc 0.9215
+epoch 4501, loss 0.2171, train acc 91.23%, f1 0.8819, precision 0.7887, recall 1.0000, auc 0.9348
+epoch 5001, loss 0.1712, train acc 92.40%, f1 0.8960, precision 0.8116, recall 1.0000, auc 0.9435
+epoch 5501, loss 0.2226, train acc 92.40%, f1 0.8960, precision 0.8116, recall 1.0000, auc 0.9435
+epoch 6001, loss 0.2257, train acc 92.40%, f1 0.8960, precision 0.8116, recall 1.0000, auc 0.9435
+epoch 6501, loss 0.2208, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 7001, loss 0.2033, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 7501, loss 0.2040, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 8001, loss 0.2110, train acc 92.40%, f1 0.8943, precision 0.8209, recall 0.9821, auc 0.9389
+epoch 8501, loss 0.1087, train acc 92.98%, f1 0.9032, precision 0.8235, recall 1.0000, auc 0.9478
+epoch 9001, loss 0.1508, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 9501, loss 0.1312, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 10001, loss 0.1624, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 10501, loss 0.1745, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 11001, loss 0.1489, train acc 95.91%, f1 0.9402, precision 0.9016, recall 0.9821, auc 0.9650
+epoch 11501, loss 0.1727, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 12001, loss 0.1534, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 12501, loss 0.1563, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 13001, loss 0.1260, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 13501, loss 0.1381, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 14001, loss 0.1573, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 14501, loss 0.1214, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 15001, loss 0.1921, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 15501, loss 0.1315, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 16001, loss 0.1016, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 16501, loss 0.1148, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 17001, loss 0.1473, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 17501, loss 0.1425, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 18001, loss 0.1887, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+epoch 18501, loss 0.1427, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+epoch 19001, loss 0.0956, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+epoch 19501, loss 0.1468, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+epoch 20001, loss 0.1335, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 20501, loss 0.1713, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 21001, loss 0.1218, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 21501, loss 0.1726, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 22001, loss 0.1310, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 22501, loss 0.1056, train acc 98.25%, f1 0.9739, precision 0.9492, recall 1.0000, auc 0.9870
+epoch 23001, loss 0.0964, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 23501, loss 0.1464, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 24001, loss 0.1183, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 24501, loss 0.0892, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 25001, loss 0.1348, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 25501, loss 0.1030, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 26001, loss 0.1370, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 26501, loss 0.1010, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 27001, loss 0.1497, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 27501, loss 0.1520, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 28001, loss 0.0913, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 28501, loss 0.1036, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 29001, loss 0.0987, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+epoch 29501, loss 0.1176, train acc 98.83%, f1 0.9825, precision 0.9655, recall 1.0000, auc 0.9913
+running_time is 1505.845699439
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_2.csv
+./test_glass0/standlization_data/glass0_std_test_2.csv
+MLP_30000_0.26
+normal_0.5
+./test_glass0/model_MLP_30000_0.26/record_1/MLP_30000_0.26_2
+./test_glass0/result_MLP_30000_0.26_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.4827586206896552
+
+the Fscore is 0.0
+
+the precision is 0.0
+
+the recall is 0.0
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_3.csv
+./test_glass0/model_MLP_30000_0.26/record_1/MLP_30000_0.26_3
+----------------------
+
+
+
+epoch 1, loss 0.5974, train acc 32.75%, f1 0.4934, precision 0.3275, recall 1.0000, auc 0.5000
+epoch 501, loss 0.3960, train acc 71.93%, f1 0.6923, precision 0.5400, recall 0.9643, auc 0.7821
+epoch 1001, loss 0.3400, train acc 74.85%, f1 0.7075, precision 0.5714, recall 0.9286, auc 0.7947
+epoch 1501, loss 0.4124, train acc 76.61%, f1 0.7222, precision 0.5909, recall 0.9286, auc 0.8078
+epoch 2001, loss 0.3356, train acc 80.70%, f1 0.7626, precision 0.6386, recall 0.9464, auc 0.8428
+epoch 2501, loss 0.3340, train acc 84.80%, f1 0.8030, precision 0.6974, recall 0.9464, auc 0.8732
+epoch 3001, loss 0.2019, train acc 85.96%, f1 0.8182, precision 0.7105, recall 0.9643, auc 0.8865
+epoch 3501, loss 0.2965, train acc 88.30%, f1 0.8462, precision 0.7432, recall 0.9821, auc 0.9085
+epoch 4001, loss 0.2533, train acc 88.30%, f1 0.8462, precision 0.7432, recall 0.9821, auc 0.9085
+epoch 4501, loss 0.3181, train acc 88.30%, f1 0.8462, precision 0.7432, recall 0.9821, auc 0.9085
+epoch 5001, loss 0.2229, train acc 89.47%, f1 0.8594, precision 0.7639, recall 0.9821, auc 0.9172
+epoch 5501, loss 0.2426, train acc 90.06%, f1 0.8682, precision 0.7671, recall 1.0000, auc 0.9261
+epoch 6001, loss 0.1965, train acc 91.81%, f1 0.8871, precision 0.8088, recall 0.9821, auc 0.9345
+epoch 6501, loss 0.1767, train acc 92.40%, f1 0.8943, precision 0.8209, recall 0.9821, auc 0.9389
+epoch 7001, loss 0.2568, train acc 92.40%, f1 0.8943, precision 0.8209, recall 0.9821, auc 0.9389
+epoch 7501, loss 0.1651, train acc 93.57%, f1 0.9106, precision 0.8358, recall 1.0000, auc 0.9522
+epoch 8001, loss 0.1594, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 8501, loss 0.1889, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 9001, loss 0.1240, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 9501, loss 0.1427, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 10001, loss 0.1652, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 10501, loss 0.1579, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 11001, loss 0.1393, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 11501, loss 0.1578, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 12001, loss 0.1276, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 12501, loss 0.2019, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 13001, loss 0.1746, train acc 94.15%, f1 0.9180, precision 0.8485, recall 1.0000, auc 0.9565
+epoch 13501, loss 0.2448, train acc 94.74%, f1 0.9256, precision 0.8615, recall 1.0000, auc 0.9609
+epoch 14001, loss 0.1304, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 14501, loss 0.1356, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 15001, loss 0.1767, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 15501, loss 0.1468, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 16001, loss 0.1778, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 16501, loss 0.1535, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 17001, loss 0.1806, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 17501, loss 0.1826, train acc 95.32%, f1 0.9333, precision 0.8750, recall 1.0000, auc 0.9652
+epoch 18001, loss 0.1750, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 18501, loss 0.1806, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 19001, loss 0.1700, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 19501, loss 0.2298, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 20001, loss 0.1604, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 20501, loss 0.2194, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 21001, loss 0.1797, train acc 95.91%, f1 0.9412, precision 0.8889, recall 1.0000, auc 0.9696
+epoch 21501, loss 0.1244, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 22001, loss 0.1497, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 22501, loss 0.0987, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 23001, loss 0.1002, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 23501, loss 0.1149, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 24001, loss 0.1397, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 24501, loss 0.1302, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 25001, loss 0.1672, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 25501, loss 0.1132, train acc 96.49%, f1 0.9492, precision 0.9032, recall 1.0000, auc 0.9739
+epoch 26001, loss 0.1533, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 26501, loss 0.1211, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 27001, loss 0.1295, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 27501, loss 0.1825, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 28001, loss 0.1358, train acc 97.08%, f1 0.9573, precision 0.9180, recall 1.0000, auc 0.9783
+epoch 28501, loss 0.1258, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+epoch 29001, loss 0.1298, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+epoch 29501, loss 0.0868, train acc 97.66%, f1 0.9655, precision 0.9333, recall 1.0000, auc 0.9826
+running_time is 1582.95494882
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_glass0/standlization_data/glass0_std_train_3.csv
+./test_glass0/standlization_data/glass0_std_test_3.csv
+MLP_30000_0.26
+normal_0.5
+./test_glass0/model_MLP_30000_0.26/record_1/MLP_30000_0.26_3
+./test_glass0/result_MLP_30000_0.26_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.6330049261083744
+
+the Fscore is 0.5405405405405405
+
+the precision is 0.43478260869565216
+
+the recall is 0.7142857142857143
+
+Done
+=>> PBS: job killed: walltime 43212 exceeded limit 43200

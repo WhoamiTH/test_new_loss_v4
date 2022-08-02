@@ -1,0 +1,337 @@
+# 选择资源
+
+
+#PBS -N nloss_v4
+#PBS -l ngpus=1
+#PBS -l mem=46gb
+#PBS -l ncpus=8
+#PBS -l walltime=12:00:00
+#PBS -M han.tai@student.unsw.edu.au
+#PBS -m ae
+#PBS -j oe
+
+#PBS -o /srv/scratch/z5102138/test_new_loss_v4/
+source ~/anaconda3/etc/profile.d/conda.sh
+conda activate py36
+
+
+cd /srv/scratch/z5102138/test_new_loss_v4
+which python
+
+
+
+mkdir -p ./test_glass0/model_MLP_20000_0.3/record_1/
+mkdir -p ./test_glass0/result_MLP_20000_0.3_normal_0.5/record_1/
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=1 record_index=1 device_id=0 train_method=MLP_20000_0.3
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=1 record_index=1 train_method=MLP_20000_0.3 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=2 record_index=1 device_id=0 train_method=MLP_20000_0.3
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=2 record_index=1 train_method=MLP_20000_0.3 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=3 record_index=1 device_id=0 train_method=MLP_20000_0.3
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=3 record_index=1 train_method=MLP_20000_0.3 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=4 record_index=1 device_id=0 train_method=MLP_20000_0.3
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=4 record_index=1 train_method=MLP_20000_0.3 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=5 record_index=1 device_id=0 train_method=MLP_20000_0.3
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=5 record_index=1 train_method=MLP_20000_0.3 test_method=normal_0.5 device_id=0
+
+
+
+mkdir -p ./test_glass0/model_MLP_20000_0.31/record_1/
+mkdir -p ./test_glass0/result_MLP_20000_0.31_normal_0.5/record_1/
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=1 record_index=1 device_id=0 train_method=MLP_20000_0.31
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=1 record_index=1 train_method=MLP_20000_0.31 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=2 record_index=1 device_id=0 train_method=MLP_20000_0.31
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=2 record_index=1 train_method=MLP_20000_0.31 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=3 record_index=1 device_id=0 train_method=MLP_20000_0.31
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=3 record_index=1 train_method=MLP_20000_0.31 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=4 record_index=1 device_id=0 train_method=MLP_20000_0.31
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=4 record_index=1 train_method=MLP_20000_0.31 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=5 record_index=1 device_id=0 train_method=MLP_20000_0.31
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=5 record_index=1 train_method=MLP_20000_0.31 test_method=normal_0.5 device_id=0
+
+
+
+mkdir -p ./test_glass0/model_MLP_20000_0.32/record_1/
+mkdir -p ./test_glass0/result_MLP_20000_0.32_normal_0.5/record_1/
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=1 record_index=1 device_id=0 train_method=MLP_20000_0.32
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=1 record_index=1 train_method=MLP_20000_0.32 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=2 record_index=1 device_id=0 train_method=MLP_20000_0.32
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=2 record_index=1 train_method=MLP_20000_0.32 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=3 record_index=1 device_id=0 train_method=MLP_20000_0.32
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=3 record_index=1 train_method=MLP_20000_0.32 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=4 record_index=1 device_id=0 train_method=MLP_20000_0.32
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=4 record_index=1 train_method=MLP_20000_0.32 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=5 record_index=1 device_id=0 train_method=MLP_20000_0.32
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=5 record_index=1 train_method=MLP_20000_0.32 test_method=normal_0.5 device_id=0
+
+
+
+mkdir -p ./test_glass0/model_MLP_20000_0.33/record_1/
+mkdir -p ./test_glass0/result_MLP_20000_0.33_normal_0.5/record_1/
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=1 record_index=1 device_id=0 train_method=MLP_20000_0.33
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=1 record_index=1 train_method=MLP_20000_0.33 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=2 record_index=1 device_id=0 train_method=MLP_20000_0.33
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=2 record_index=1 train_method=MLP_20000_0.33 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=3 record_index=1 device_id=0 train_method=MLP_20000_0.33
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=3 record_index=1 train_method=MLP_20000_0.33 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=4 record_index=1 device_id=0 train_method=MLP_20000_0.33
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=4 record_index=1 train_method=MLP_20000_0.33 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=5 record_index=1 device_id=0 train_method=MLP_20000_0.33
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=5 record_index=1 train_method=MLP_20000_0.33 test_method=normal_0.5 device_id=0
+
+
+
+mkdir -p ./test_glass0/model_MLP_20000_0.34/record_1/
+mkdir -p ./test_glass0/result_MLP_20000_0.34_normal_0.5/record_1/
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=1 record_index=1 device_id=0 train_method=MLP_20000_0.34
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=1 record_index=1 train_method=MLP_20000_0.34 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=2 record_index=1 device_id=0 train_method=MLP_20000_0.34
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=2 record_index=1 train_method=MLP_20000_0.34 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=3 record_index=1 device_id=0 train_method=MLP_20000_0.34
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=3 record_index=1 train_method=MLP_20000_0.34 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=4 record_index=1 device_id=0 train_method=MLP_20000_0.34
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=4 record_index=1 train_method=MLP_20000_0.34 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=5 record_index=1 device_id=0 train_method=MLP_20000_0.34
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=5 record_index=1 train_method=MLP_20000_0.34 test_method=normal_0.5 device_id=0
+
+
+
+mkdir -p ./test_glass0/model_MLP_20000_0.35/record_1/
+mkdir -p ./test_glass0/result_MLP_20000_0.35_normal_0.5/record_1/
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=1 record_index=1 device_id=0 train_method=MLP_20000_0.35
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=1 record_index=1 train_method=MLP_20000_0.35 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=2 record_index=1 device_id=0 train_method=MLP_20000_0.35
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=2 record_index=1 train_method=MLP_20000_0.35 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=3 record_index=1 device_id=0 train_method=MLP_20000_0.35
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=3 record_index=1 train_method=MLP_20000_0.35 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=4 record_index=1 device_id=0 train_method=MLP_20000_0.35
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=4 record_index=1 train_method=MLP_20000_0.35 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=5 record_index=1 device_id=0 train_method=MLP_20000_0.35
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=5 record_index=1 train_method=MLP_20000_0.35 test_method=normal_0.5 device_id=0
+
+
+
+mkdir -p ./test_glass0/model_MLP_20000_0.36/record_1/
+mkdir -p ./test_glass0/result_MLP_20000_0.36_normal_0.5/record_1/
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=1 record_index=1 device_id=0 train_method=MLP_20000_0.36
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=1 record_index=1 train_method=MLP_20000_0.36 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=2 record_index=1 device_id=0 train_method=MLP_20000_0.36
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=2 record_index=1 train_method=MLP_20000_0.36 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=3 record_index=1 device_id=0 train_method=MLP_20000_0.36
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=3 record_index=1 train_method=MLP_20000_0.36 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=4 record_index=1 device_id=0 train_method=MLP_20000_0.36
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=4 record_index=1 train_method=MLP_20000_0.36 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=5 record_index=1 device_id=0 train_method=MLP_20000_0.36
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=5 record_index=1 train_method=MLP_20000_0.36 test_method=normal_0.5 device_id=0
+
+
+
+mkdir -p ./test_glass0/model_MLP_20000_0.37/record_1/
+mkdir -p ./test_glass0/result_MLP_20000_0.37_normal_0.5/record_1/
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=1 record_index=1 device_id=0 train_method=MLP_20000_0.37
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=1 record_index=1 train_method=MLP_20000_0.37 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=2 record_index=1 device_id=0 train_method=MLP_20000_0.37
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=2 record_index=1 train_method=MLP_20000_0.37 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=3 record_index=1 device_id=0 train_method=MLP_20000_0.37
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=3 record_index=1 train_method=MLP_20000_0.37 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=4 record_index=1 device_id=0 train_method=MLP_20000_0.37
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=4 record_index=1 train_method=MLP_20000_0.37 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=5 record_index=1 device_id=0 train_method=MLP_20000_0.37
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=5 record_index=1 train_method=MLP_20000_0.37 test_method=normal_0.5 device_id=0
+
+
+
+mkdir -p ./test_glass0/model_MLP_20000_0.38/record_1/
+mkdir -p ./test_glass0/result_MLP_20000_0.38_normal_0.5/record_1/
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=1 record_index=1 device_id=0 train_method=MLP_20000_0.38
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=1 record_index=1 train_method=MLP_20000_0.38 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=2 record_index=1 device_id=0 train_method=MLP_20000_0.38
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=2 record_index=1 train_method=MLP_20000_0.38 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=3 record_index=1 device_id=0 train_method=MLP_20000_0.38
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=3 record_index=1 train_method=MLP_20000_0.38 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=4 record_index=1 device_id=0 train_method=MLP_20000_0.38
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=4 record_index=1 train_method=MLP_20000_0.38 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=5 record_index=1 device_id=0 train_method=MLP_20000_0.38
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=5 record_index=1 train_method=MLP_20000_0.38 test_method=normal_0.5 device_id=0
+
+
+
+mkdir -p ./test_glass0/model_MLP_20000_0.39/record_1/
+mkdir -p ./test_glass0/result_MLP_20000_0.39_normal_0.5/record_1/
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=1 record_index=1 device_id=0 train_method=MLP_20000_0.39
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=1 record_index=1 train_method=MLP_20000_0.39 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=2 record_index=1 device_id=0 train_method=MLP_20000_0.39
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=2 record_index=1 train_method=MLP_20000_0.39 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=3 record_index=1 device_id=0 train_method=MLP_20000_0.39
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=3 record_index=1 train_method=MLP_20000_0.39 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=4 record_index=1 device_id=0 train_method=MLP_20000_0.39
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=4 record_index=1 train_method=MLP_20000_0.39 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=5 record_index=1 device_id=0 train_method=MLP_20000_0.39
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=5 record_index=1 train_method=MLP_20000_0.39 test_method=normal_0.5 device_id=0
+
+
+
+mkdir -p ./test_glass0/model_MLP_15000_0.0/record_1/
+mkdir -p ./test_glass0/result_MLP_15000_0.0_normal_0.5/record_1/
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=1 record_index=1 device_id=0 train_method=MLP_15000_0.0
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=1 record_index=1 train_method=MLP_15000_0.0 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=2 record_index=1 device_id=0 train_method=MLP_15000_0.0
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=2 record_index=1 train_method=MLP_15000_0.0 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=3 record_index=1 device_id=0 train_method=MLP_15000_0.0
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=3 record_index=1 train_method=MLP_15000_0.0 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=4 record_index=1 device_id=0 train_method=MLP_15000_0.0
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=4 record_index=1 train_method=MLP_15000_0.0 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=5 record_index=1 device_id=0 train_method=MLP_15000_0.0
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=5 record_index=1 train_method=MLP_15000_0.0 test_method=normal_0.5 device_id=0
+
+
+
+mkdir -p ./test_glass0/model_MLP_15000_0.01/record_1/
+mkdir -p ./test_glass0/result_MLP_15000_0.01_normal_0.5/record_1/
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=1 record_index=1 device_id=0 train_method=MLP_15000_0.01
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=1 record_index=1 train_method=MLP_15000_0.01 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=2 record_index=1 device_id=0 train_method=MLP_15000_0.01
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=2 record_index=1 train_method=MLP_15000_0.01 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=3 record_index=1 device_id=0 train_method=MLP_15000_0.01
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=3 record_index=1 train_method=MLP_15000_0.01 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=4 record_index=1 device_id=0 train_method=MLP_15000_0.01
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=4 record_index=1 train_method=MLP_15000_0.01 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=5 record_index=1 device_id=0 train_method=MLP_15000_0.01
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=5 record_index=1 train_method=MLP_15000_0.01 test_method=normal_0.5 device_id=0
+
+
+
+mkdir -p ./test_glass0/model_MLP_15000_0.02/record_1/
+mkdir -p ./test_glass0/result_MLP_15000_0.02_normal_0.5/record_1/
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=1 record_index=1 device_id=0 train_method=MLP_15000_0.02
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=1 record_index=1 train_method=MLP_15000_0.02 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=2 record_index=1 device_id=0 train_method=MLP_15000_0.02
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=2 record_index=1 train_method=MLP_15000_0.02 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=3 record_index=1 device_id=0 train_method=MLP_15000_0.02
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=3 record_index=1 train_method=MLP_15000_0.02 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=4 record_index=1 device_id=0 train_method=MLP_15000_0.02
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=4 record_index=1 train_method=MLP_15000_0.02 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=5 record_index=1 device_id=0 train_method=MLP_15000_0.02
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=5 record_index=1 train_method=MLP_15000_0.02 test_method=normal_0.5 device_id=0
+
+
+
+mkdir -p ./test_glass0/model_MLP_15000_0.03/record_1/
+mkdir -p ./test_glass0/result_MLP_15000_0.03_normal_0.5/record_1/
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=1 record_index=1 device_id=0 train_method=MLP_15000_0.03
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=1 record_index=1 train_method=MLP_15000_0.03 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=2 record_index=1 device_id=0 train_method=MLP_15000_0.03
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=2 record_index=1 train_method=MLP_15000_0.03 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=3 record_index=1 device_id=0 train_method=MLP_15000_0.03
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=3 record_index=1 train_method=MLP_15000_0.03 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=4 record_index=1 device_id=0 train_method=MLP_15000_0.03
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=4 record_index=1 train_method=MLP_15000_0.03 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=5 record_index=1 device_id=0 train_method=MLP_15000_0.03
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=5 record_index=1 train_method=MLP_15000_0.03 test_method=normal_0.5 device_id=0
+
+
+
+mkdir -p ./test_glass0/model_MLP_15000_0.04/record_1/
+mkdir -p ./test_glass0/result_MLP_15000_0.04_normal_0.5/record_1/
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=1 record_index=1 device_id=0 train_method=MLP_15000_0.04
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=1 record_index=1 train_method=MLP_15000_0.04 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=2 record_index=1 device_id=0 train_method=MLP_15000_0.04
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=2 record_index=1 train_method=MLP_15000_0.04 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=3 record_index=1 device_id=0 train_method=MLP_15000_0.04
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=3 record_index=1 train_method=MLP_15000_0.04 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=4 record_index=1 device_id=0 train_method=MLP_15000_0.04
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=4 record_index=1 train_method=MLP_15000_0.04 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=5 record_index=1 device_id=0 train_method=MLP_15000_0.04
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=5 record_index=1 train_method=MLP_15000_0.04 test_method=normal_0.5 device_id=0
+
+
+
+mkdir -p ./test_glass0/model_MLP_15000_0.05/record_1/
+mkdir -p ./test_glass0/result_MLP_15000_0.05_normal_0.5/record_1/
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=1 record_index=1 device_id=0 train_method=MLP_15000_0.05
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=1 record_index=1 train_method=MLP_15000_0.05 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=2 record_index=1 device_id=0 train_method=MLP_15000_0.05
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=2 record_index=1 train_method=MLP_15000_0.05 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=3 record_index=1 device_id=0 train_method=MLP_15000_0.05
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=3 record_index=1 train_method=MLP_15000_0.05 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=4 record_index=1 device_id=0 train_method=MLP_15000_0.05
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=4 record_index=1 train_method=MLP_15000_0.05 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=5 record_index=1 device_id=0 train_method=MLP_15000_0.05
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=5 record_index=1 train_method=MLP_15000_0.05 test_method=normal_0.5 device_id=0
+
+
+
+mkdir -p ./test_glass0/model_MLP_15000_0.06/record_1/
+mkdir -p ./test_glass0/result_MLP_15000_0.06_normal_0.5/record_1/
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=1 record_index=1 device_id=0 train_method=MLP_15000_0.06
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=1 record_index=1 train_method=MLP_15000_0.06 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=2 record_index=1 device_id=0 train_method=MLP_15000_0.06
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=2 record_index=1 train_method=MLP_15000_0.06 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=3 record_index=1 device_id=0 train_method=MLP_15000_0.06
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=3 record_index=1 train_method=MLP_15000_0.06 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=4 record_index=1 device_id=0 train_method=MLP_15000_0.06
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=4 record_index=1 train_method=MLP_15000_0.06 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=5 record_index=1 device_id=0 train_method=MLP_15000_0.06
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=5 record_index=1 train_method=MLP_15000_0.06 test_method=normal_0.5 device_id=0
+
+
+
+mkdir -p ./test_glass0/model_MLP_15000_0.07/record_1/
+mkdir -p ./test_glass0/result_MLP_15000_0.07_normal_0.5/record_1/
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=1 record_index=1 device_id=0 train_method=MLP_15000_0.07
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=1 record_index=1 train_method=MLP_15000_0.07 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=2 record_index=1 device_id=0 train_method=MLP_15000_0.07
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=2 record_index=1 train_method=MLP_15000_0.07 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=3 record_index=1 device_id=0 train_method=MLP_15000_0.07
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=3 record_index=1 train_method=MLP_15000_0.07 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=4 record_index=1 device_id=0 train_method=MLP_15000_0.07
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=4 record_index=1 train_method=MLP_15000_0.07 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=5 record_index=1 device_id=0 train_method=MLP_15000_0.07
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=5 record_index=1 train_method=MLP_15000_0.07 test_method=normal_0.5 device_id=0
+
+
+
+mkdir -p ./test_glass0/model_MLP_15000_0.08/record_1/
+mkdir -p ./test_glass0/result_MLP_15000_0.08_normal_0.5/record_1/
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=1 record_index=1 device_id=0 train_method=MLP_15000_0.08
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=1 record_index=1 train_method=MLP_15000_0.08 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=2 record_index=1 device_id=0 train_method=MLP_15000_0.08
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=2 record_index=1 train_method=MLP_15000_0.08 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=3 record_index=1 device_id=0 train_method=MLP_15000_0.08
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=3 record_index=1 train_method=MLP_15000_0.08 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=4 record_index=1 device_id=0 train_method=MLP_15000_0.08
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=4 record_index=1 train_method=MLP_15000_0.08 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=5 record_index=1 device_id=0 train_method=MLP_15000_0.08
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=5 record_index=1 train_method=MLP_15000_0.08 test_method=normal_0.5 device_id=0
+
+
+
+mkdir -p ./test_glass0/model_MLP_15000_0.09/record_1/
+mkdir -p ./test_glass0/result_MLP_15000_0.09_normal_0.5/record_1/
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=1 record_index=1 device_id=0 train_method=MLP_15000_0.09
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=1 record_index=1 train_method=MLP_15000_0.09 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=2 record_index=1 device_id=0 train_method=MLP_15000_0.09
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=2 record_index=1 train_method=MLP_15000_0.09 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=3 record_index=1 device_id=0 train_method=MLP_15000_0.09
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=3 record_index=1 train_method=MLP_15000_0.09 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=4 record_index=1 device_id=0 train_method=MLP_15000_0.09
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=4 record_index=1 train_method=MLP_15000_0.09 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=5 record_index=1 device_id=0 train_method=MLP_15000_0.09
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=5 record_index=1 train_method=MLP_15000_0.09 test_method=normal_0.5 device_id=0
+
+
+
+mkdir -p ./test_glass0/model_MLP_15000_0.1/record_1/
+mkdir -p ./test_glass0/result_MLP_15000_0.1_normal_0.5/record_1/
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=1 record_index=1 device_id=0 train_method=MLP_15000_0.1
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=1 record_index=1 train_method=MLP_15000_0.1 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=2 record_index=1 device_id=0 train_method=MLP_15000_0.1
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=2 record_index=1 train_method=MLP_15000_0.1 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=3 record_index=1 device_id=0 train_method=MLP_15000_0.1
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=3 record_index=1 train_method=MLP_15000_0.1 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=4 record_index=1 device_id=0 train_method=MLP_15000_0.1
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=4 record_index=1 train_method=MLP_15000_0.1 test_method=normal_0.5 device_id=0
+python3 ./classifier_MLP/train_MLP.py dataset_name=glass0 dataset_index=5 record_index=1 device_id=0 train_method=MLP_15000_0.1
+python3 ./classifier_MLP/test.py dataset_name=glass0 dataset_index=5 record_index=1 train_method=MLP_15000_0.1 test_method=normal_0.5 device_id=0
+
+
+

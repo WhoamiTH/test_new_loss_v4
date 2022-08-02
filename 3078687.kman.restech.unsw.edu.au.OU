@@ -1,0 +1,703 @@
+/home/z5102138/anaconda3/envs/py36/bin/python
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_1.csv
+./test_pima/model_MLP_5000_0.22/record_1/MLP_5000_0.22_1
+----------------------
+
+
+
+epoch 1, loss 0.6495, train acc 34.85%, f1 0.5169, precision 0.3485, recall 1.0000, auc 0.5000
+epoch 501, loss 0.3458, train acc 70.68%, f1 0.6763, precision 0.5497, recall 0.8785, auc 0.7468
+epoch 1001, loss 0.4257, train acc 69.38%, f1 0.6713, precision 0.5363, recall 0.8972, auc 0.7411
+epoch 1501, loss 0.5093, train acc 72.48%, f1 0.6865, precision 0.5692, recall 0.8645, auc 0.7572
+epoch 2001, loss 0.4722, train acc 72.96%, f1 0.6949, precision 0.5727, recall 0.8832, auc 0.7653
+epoch 2501, loss 0.4371, train acc 73.29%, f1 0.6906, precision 0.5791, recall 0.8551, auc 0.7613
+epoch 3001, loss 0.4359, train acc 73.13%, f1 0.6972, precision 0.5740, recall 0.8879, auc 0.7677
+epoch 3501, loss 0.3638, train acc 74.43%, f1 0.7032, precision 0.5905, recall 0.8692, auc 0.7733
+epoch 4001, loss 0.4936, train acc 74.27%, f1 0.7041, precision 0.5875, recall 0.8785, auc 0.7743
+epoch 4501, loss 0.4313, train acc 73.94%, f1 0.6992, precision 0.5849, recall 0.8692, auc 0.7696
+running_time is 1660.356756123
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_1.csv
+./test_pima/standlization_data/pima_std_test_1.csv
+MLP_5000_0.22
+normal_0.5
+./test_pima/model_MLP_5000_0.22/record_1/MLP_5000_0.22_1
+./test_pima/result_MLP_5000_0.22_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.515
+
+the Fscore is 0.526829268292683
+
+the precision is 0.3576158940397351
+
+the recall is 1.0
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_2.csv
+./test_pima/model_MLP_5000_0.22/record_1/MLP_5000_0.22_2
+----------------------
+
+
+
+epoch 1, loss 0.6309, train acc 34.53%, f1 0.4872, precision 0.3351, recall 0.8925, auc 0.4725
+epoch 501, loss 0.4118, train acc 72.31%, f1 0.6898, precision 0.5659, recall 0.8832, auc 0.7603
+epoch 1001, loss 0.4553, train acc 73.78%, f1 0.7035, precision 0.5805, recall 0.8925, auc 0.7738
+epoch 1501, loss 0.3775, train acc 74.10%, f1 0.7050, precision 0.5846, recall 0.8879, auc 0.7752
+epoch 2001, loss 0.4239, train acc 75.24%, f1 0.7143, precision 0.5975, recall 0.8879, auc 0.7839
+epoch 2501, loss 0.3426, train acc 75.24%, f1 0.7143, precision 0.5975, recall 0.8879, auc 0.7839
+epoch 3001, loss 0.3984, train acc 74.59%, f1 0.7111, precision 0.5890, recall 0.8972, auc 0.7811
+epoch 3501, loss 0.4738, train acc 75.41%, f1 0.7156, precision 0.5994, recall 0.8879, auc 0.7852
+epoch 4001, loss 0.4540, train acc 74.76%, f1 0.7114, precision 0.5913, recall 0.8925, auc 0.7813
+epoch 4501, loss 0.4054, train acc 74.92%, f1 0.7094, precision 0.5949, recall 0.8785, auc 0.7793
+running_time is 1618.247948382
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_2.csv
+./test_pima/standlization_data/pima_std_test_2.csv
+MLP_5000_0.22
+normal_0.5
+./test_pima/model_MLP_5000_0.22/record_1/MLP_5000_0.22_2
+./test_pima/result_MLP_5000_0.22_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.5
+
+the Fscore is 0.5192307692307693
+
+the precision is 0.35064935064935066
+
+the recall is 1.0
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_3.csv
+./test_pima/model_MLP_5000_0.22/record_1/MLP_5000_0.22_3
+----------------------
+
+
+
+epoch 1, loss 0.6118, train acc 51.47%, f1 0.5209, precision 0.3971, recall 0.7570, auc 0.5710
+epoch 501, loss 0.5374, train acc 68.40%, f1 0.6572, precision 0.5284, recall 0.8692, auc 0.7271
+epoch 1001, loss 0.5272, train acc 69.22%, f1 0.6667, precision 0.5354, recall 0.8832, auc 0.7366
+epoch 1501, loss 0.4230, train acc 69.71%, f1 0.6725, precision 0.5395, recall 0.8925, auc 0.7425
+epoch 2001, loss 0.4811, train acc 71.34%, f1 0.6835, precision 0.5556, recall 0.8879, auc 0.7539
+epoch 2501, loss 0.4991, train acc 72.80%, f1 0.6958, precision 0.5701, recall 0.8925, auc 0.7663
+epoch 3001, loss 0.3462, train acc 73.94%, f1 0.7037, precision 0.5828, recall 0.8879, auc 0.7739
+epoch 3501, loss 0.4216, train acc 74.76%, f1 0.7114, precision 0.5913, recall 0.8925, auc 0.7813
+epoch 4001, loss 0.4983, train acc 75.24%, f1 0.7099, precision 0.6000, recall 0.8692, auc 0.7796
+epoch 4501, loss 0.4850, train acc 75.57%, f1 0.7148, precision 0.6026, recall 0.8785, auc 0.7843
+running_time is 1377.851422735
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_3.csv
+./test_pima/standlization_data/pima_std_test_3.csv
+MLP_5000_0.22
+normal_0.5
+./test_pima/model_MLP_5000_0.22/record_1/MLP_5000_0.22_3
+./test_pima/result_MLP_5000_0.22_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.575
+
+the Fscore is 0.5595854922279793
+
+the precision is 0.38848920863309355
+
+the recall is 1.0
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_4.csv
+./test_pima/model_MLP_5000_0.22/record_1/MLP_5000_0.22_4
+----------------------
+
+
+
+epoch 1, loss 0.7441, train acc 35.12%, f1 0.5187, precision 0.3502, recall 1.0000, auc 0.5012
+epoch 501, loss 0.5206, train acc 72.52%, f1 0.6841, precision 0.5719, recall 0.8512, auc 0.7543
+epoch 1001, loss 0.4424, train acc 72.68%, f1 0.6842, precision 0.5741, recall 0.8465, auc 0.7545
+epoch 1501, loss 0.4981, train acc 73.33%, f1 0.6952, precision 0.5789, recall 0.8698, auc 0.7649
+epoch 2001, loss 0.5142, train acc 73.17%, f1 0.6927, precision 0.5776, recall 0.8651, auc 0.7626
+epoch 2501, loss 0.4663, train acc 74.96%, f1 0.7083, precision 0.5974, recall 0.8698, auc 0.7774
+epoch 3001, loss 0.4985, train acc 74.96%, f1 0.7061, precision 0.5987, recall 0.8605, auc 0.7752
+epoch 3501, loss 0.3595, train acc 75.77%, f1 0.7118, precision 0.6093, recall 0.8558, auc 0.7804
+epoch 4001, loss 0.4213, train acc 76.59%, f1 0.7209, precision 0.6179, recall 0.8651, auc 0.7888
+epoch 4501, loss 0.4483, train acc 76.75%, f1 0.7223, precision 0.6200, recall 0.8651, auc 0.7901
+running_time is 1490.483975351
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_4.csv
+./test_pima/standlization_data/pima_std_test_4.csv
+MLP_5000_0.22
+normal_0.5
+./test_pima/model_MLP_5000_0.22/record_1/MLP_5000_0.22_4
+./test_pima/result_MLP_5000_0.22_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.5361320754716982
+
+the Fscore is 0.5284974093264249
+
+the precision is 0.36428571428571427
+
+the recall is 0.9622641509433962
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_5.csv
+./test_pima/model_MLP_5000_0.22/record_1/MLP_5000_0.22_5
+----------------------
+
+
+
+epoch 1, loss 0.7063, train acc 36.10%, f1 0.5057, precision 0.3466, recall 0.9349, auc 0.4937
+epoch 501, loss 0.4334, train acc 70.24%, f1 0.6691, precision 0.5473, recall 0.8605, auc 0.7390
+epoch 1001, loss 0.4448, train acc 70.24%, f1 0.6772, precision 0.5455, recall 0.8930, auc 0.7465
+epoch 1501, loss 0.3896, train acc 71.54%, f1 0.6835, precision 0.5592, recall 0.8791, auc 0.7533
+epoch 2001, loss 0.4782, train acc 74.31%, f1 0.7041, precision 0.5893, recall 0.8744, auc 0.7735
+epoch 2501, loss 0.3726, train acc 74.63%, f1 0.7034, precision 0.5949, recall 0.8605, auc 0.7727
+epoch 3001, loss 0.5087, train acc 74.80%, f1 0.7081, precision 0.5949, recall 0.8744, auc 0.7772
+epoch 3501, loss 0.3643, train acc 76.10%, f1 0.7200, precision 0.6097, recall 0.8791, auc 0.7883
+epoch 4001, loss 0.3795, train acc 76.59%, f1 0.7252, precision 0.6149, recall 0.8837, auc 0.7931
+epoch 4501, loss 0.4090, train acc 77.24%, f1 0.7308, precision 0.6230, recall 0.8837, auc 0.7981
+running_time is 1518.63737197
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_5.csv
+./test_pima/standlization_data/pima_std_test_5.csv
+MLP_5000_0.22
+normal_0.5
+./test_pima/model_MLP_5000_0.22/record_1/MLP_5000_0.22_5
+./test_pima/result_MLP_5000_0.22_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.63
+
+the Fscore is 0.5888888888888889
+
+the precision is 0.41732283464566927
+
+the recall is 1.0
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_1.csv
+./test_pima/model_MLP_5000_0.23/record_1/MLP_5000_0.23_1
+----------------------
+
+
+
+epoch 1, loss 0.6925, train acc 44.46%, f1 0.5495, precision 0.3831, recall 0.9720, auc 0.5672
+epoch 501, loss 0.4368, train acc 70.85%, f1 0.6786, precision 0.5510, recall 0.8832, auc 0.7491
+epoch 1001, loss 0.3767, train acc 69.54%, f1 0.6690, precision 0.5385, recall 0.8832, auc 0.7391
+epoch 1501, loss 0.4618, train acc 69.38%, f1 0.6725, precision 0.5361, recall 0.9019, auc 0.7422
+epoch 2001, loss 0.4629, train acc 72.15%, f1 0.6874, precision 0.5646, recall 0.8785, auc 0.7580
+epoch 2501, loss 0.4742, train acc 71.82%, f1 0.6883, precision 0.5601, recall 0.8925, auc 0.7588
+epoch 3001, loss 0.4547, train acc 73.29%, f1 0.6985, precision 0.5758, recall 0.8879, auc 0.7689
+epoch 3501, loss 0.3561, train acc 74.27%, f1 0.6962, precision 0.5915, recall 0.8458, auc 0.7666
+epoch 4001, loss 0.4826, train acc 73.45%, f1 0.6987, precision 0.5780, recall 0.8832, auc 0.7691
+epoch 4501, loss 0.4562, train acc 74.43%, f1 0.7043, precision 0.5899, recall 0.8738, auc 0.7744
+running_time is 1530.177106809
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_1.csv
+./test_pima/standlization_data/pima_std_test_1.csv
+MLP_5000_0.23
+normal_0.5
+./test_pima/model_MLP_5000_0.23/record_1/MLP_5000_0.23_1
+./test_pima/result_MLP_5000_0.23_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.52
+
+the Fscore is 0.5294117647058824
+
+the precision is 0.36
+
+the recall is 1.0
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_2.csv
+./test_pima/model_MLP_5000_0.23/record_1/MLP_5000_0.23_2
+----------------------
+
+
+
+epoch 1, loss 0.6329, train acc 36.48%, f1 0.5197, precision 0.3528, recall 0.9860, auc 0.5092
+epoch 501, loss 0.4315, train acc 70.85%, f1 0.6809, precision 0.5504, recall 0.8925, auc 0.7513
+epoch 1001, loss 0.4507, train acc 71.34%, f1 0.6890, precision 0.5540, recall 0.9112, auc 0.7594
+epoch 1501, loss 0.3706, train acc 70.85%, f1 0.6809, precision 0.5504, recall 0.8925, auc 0.7513
+epoch 2001, loss 0.4225, train acc 71.50%, f1 0.6903, precision 0.5556, recall 0.9112, auc 0.7606
+epoch 2501, loss 0.4558, train acc 75.08%, f1 0.7129, precision 0.5956, recall 0.8879, auc 0.7827
+epoch 3001, loss 0.3335, train acc 74.76%, f1 0.7070, precision 0.5937, recall 0.8738, auc 0.7769
+epoch 3501, loss 0.4567, train acc 75.73%, f1 0.7183, precision 0.6032, recall 0.8879, auc 0.7877
+epoch 4001, loss 0.3511, train acc 75.90%, f1 0.7165, precision 0.6071, recall 0.8738, auc 0.7857
+epoch 4501, loss 0.3971, train acc 76.55%, f1 0.7262, precision 0.6122, recall 0.8925, auc 0.7950
+running_time is 1517.2513512120001
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_2.csv
+./test_pima/standlization_data/pima_std_test_2.csv
+MLP_5000_0.23
+normal_0.5
+./test_pima/model_MLP_5000_0.23/record_1/MLP_5000_0.23_2
+./test_pima/result_MLP_5000_0.23_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.5449999999999999
+
+the Fscore is 0.542713567839196
+
+the precision is 0.3724137931034483
+
+the recall is 1.0
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_3.csv
+./test_pima/model_MLP_5000_0.23/record_1/MLP_5000_0.23_3
+----------------------
+
+
+
+epoch 1, loss 0.6131, train acc 52.28%, f1 0.5220, precision 0.4010, recall 0.7477, auc 0.5751
+epoch 501, loss 0.4022, train acc 69.38%, f1 0.6631, precision 0.5378, recall 0.8645, auc 0.7335
+epoch 1001, loss 0.4202, train acc 69.06%, f1 0.6690, precision 0.5333, recall 0.8972, auc 0.7386
+epoch 1501, loss 0.3994, train acc 69.06%, f1 0.6690, precision 0.5333, recall 0.8972, auc 0.7386
+epoch 2001, loss 0.4058, train acc 71.66%, f1 0.6859, precision 0.5588, recall 0.8879, auc 0.7564
+epoch 2501, loss 0.4273, train acc 72.64%, f1 0.6934, precision 0.5689, recall 0.8879, auc 0.7639
+epoch 3001, loss 0.5224, train acc 71.99%, f1 0.6873, precision 0.5625, recall 0.8832, auc 0.7578
+epoch 3501, loss 0.3782, train acc 72.96%, f1 0.6937, precision 0.5732, recall 0.8785, auc 0.7643
+epoch 4001, loss 0.6070, train acc 73.62%, f1 0.7011, precision 0.5793, recall 0.8879, auc 0.7714
+epoch 4501, loss 0.3616, train acc 75.24%, f1 0.7121, precision 0.5987, recall 0.8785, auc 0.7818
+running_time is 1475.911729035
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_3.csv
+./test_pima/standlization_data/pima_std_test_3.csv
+MLP_5000_0.23
+normal_0.5
+./test_pima/model_MLP_5000_0.23/record_1/MLP_5000_0.23_3
+./test_pima/result_MLP_5000_0.23_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.515
+
+the Fscore is 0.526829268292683
+
+the precision is 0.3576158940397351
+
+the recall is 1.0
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_4.csv
+./test_pima/model_MLP_5000_0.23/record_1/MLP_5000_0.23_4
+----------------------
+
+
+
+epoch 1, loss 0.7326, train acc 34.63%, f1 0.5121, precision 0.3465, recall 0.9814, auc 0.4932
+epoch 501, loss 0.4521, train acc 72.20%, f1 0.6816, precision 0.5683, recall 0.8512, auc 0.7518
+epoch 1001, loss 0.4562, train acc 71.38%, f1 0.6800, precision 0.5582, recall 0.8698, auc 0.7499
+epoch 1501, loss 0.3572, train acc 72.36%, f1 0.6886, precision 0.5680, recall 0.8744, auc 0.7585
+epoch 2001, loss 0.4579, train acc 73.33%, f1 0.6940, precision 0.5794, recall 0.8651, auc 0.7638
+epoch 2501, loss 0.4446, train acc 74.47%, f1 0.7021, precision 0.5929, recall 0.8605, auc 0.7715
+epoch 3001, loss 0.3880, train acc 75.61%, f1 0.7082, precision 0.6087, recall 0.8465, auc 0.7770
+epoch 3501, loss 2.3901, train acc 75.77%, f1 0.7129, precision 0.6086, recall 0.8605, auc 0.7815
+epoch 4001, loss 2.4510, train acc 75.93%, f1 0.7208, precision 0.6063, recall 0.8884, auc 0.7892
+epoch 4501, loss 0.3876, train acc 75.93%, f1 0.7143, precision 0.6106, recall 0.8605, auc 0.7827
+running_time is 1682.591655108
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_4.csv
+./test_pima/standlization_data/pima_std_test_4.csv
+MLP_5000_0.23
+normal_0.5
+./test_pima/model_MLP_5000_0.23/record_1/MLP_5000_0.23_4
+./test_pima/result_MLP_5000_0.23_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.526132075471698
+
+the Fscore is 0.5230769230769231
+
+the precision is 0.3591549295774648
+
+the recall is 0.9622641509433962
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_5.csv
+./test_pima/model_MLP_5000_0.23/record_1/MLP_5000_0.23_5
+----------------------
+
+
+
+epoch 1, loss 0.7325, train acc 35.77%, f1 0.5212, precision 0.3525, recall 1.0000, auc 0.5062
+epoch 501, loss 0.4705, train acc 70.89%, f1 0.6751, precision 0.5536, recall 0.8651, auc 0.7451
+epoch 1001, loss 0.3826, train acc 70.08%, f1 0.6738, precision 0.5444, recall 0.8837, auc 0.7431
+epoch 1501, loss 0.3815, train acc 74.63%, f1 0.7057, precision 0.5937, recall 0.8698, auc 0.7749
+epoch 2001, loss 0.3778, train acc 74.47%, f1 0.7087, precision 0.5895, recall 0.8884, auc 0.7779
+epoch 2501, loss 0.4125, train acc 74.80%, f1 0.7145, precision 0.5915, recall 0.9023, auc 0.7837
+epoch 3001, loss 0.5242, train acc 75.93%, f1 0.7228, precision 0.6050, recall 0.8977, auc 0.7913
+epoch 3501, loss 0.4033, train acc 76.75%, f1 0.7297, precision 0.6146, recall 0.8977, auc 0.7976
+epoch 4001, loss 0.4467, train acc 75.77%, f1 0.7205, precision 0.6038, recall 0.8930, auc 0.7890
+epoch 4501, loss 0.5147, train acc 76.10%, f1 0.7242, precision 0.6069, recall 0.8977, auc 0.7926
+running_time is 1610.400127864
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_5.csv
+./test_pima/standlization_data/pima_std_test_5.csv
+MLP_5000_0.23
+normal_0.5
+./test_pima/model_MLP_5000_0.23/record_1/MLP_5000_0.23_5
+./test_pima/result_MLP_5000_0.23_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.585
+
+the Fscore is 0.5608465608465609
+
+the precision is 0.3897058823529412
+
+the recall is 1.0
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_1.csv
+./test_pima/model_MLP_5000_0.24/record_1/MLP_5000_0.24_1
+----------------------
+
+
+
+epoch 1, loss 0.6776, train acc 36.64%, f1 0.5203, precision 0.3534, recall 0.9860, auc 0.5105
+epoch 501, loss 0.4666, train acc 67.92%, f1 0.6609, precision 0.5232, recall 0.8972, auc 0.7298
+epoch 1001, loss 0.4512, train acc 69.87%, f1 0.6737, precision 0.5411, recall 0.8925, auc 0.7438
+epoch 1501, loss 0.4659, train acc 67.92%, f1 0.6621, precision 0.5230, recall 0.9019, auc 0.7309
+epoch 2001, loss 0.4474, train acc 71.17%, f1 0.6845, precision 0.5533, recall 0.8972, auc 0.7548
+epoch 2501, loss 0.3946, train acc 71.34%, f1 0.6835, precision 0.5556, recall 0.8879, auc 0.7539
+epoch 3001, loss 0.4443, train acc 71.34%, f1 0.6846, precision 0.5552, recall 0.8925, auc 0.7550
+epoch 3501, loss 0.3663, train acc 72.64%, f1 0.6912, precision 0.5697, recall 0.8785, auc 0.7618
+epoch 4001, loss 0.4204, train acc 72.96%, f1 0.6937, precision 0.5732, recall 0.8785, auc 0.7643
+epoch 4501, loss 0.3936, train acc 72.80%, f1 0.6980, precision 0.5693, recall 0.9019, auc 0.7684
+running_time is 1555.5459286550001
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_1.csv
+./test_pima/standlization_data/pima_std_test_1.csv
+MLP_5000_0.24
+normal_0.5
+./test_pima/model_MLP_5000_0.24/record_1/MLP_5000_0.24_1
+./test_pima/result_MLP_5000_0.24_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.6107407407407408
+
+the Fscore is 0.5792349726775957
+
+the precision is 0.4108527131782946
+
+the recall is 0.9814814814814815
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_2.csv
+./test_pima/model_MLP_5000_0.24/record_1/MLP_5000_0.24_2
+----------------------
+
+
+
+epoch 1, loss 0.6359, train acc 43.49%, f1 0.4670, precision 0.3478, recall 0.7103, auc 0.4989
+epoch 501, loss 0.5003, train acc 69.71%, f1 0.6760, precision 0.5389, recall 0.9065, auc 0.7458
+epoch 1001, loss 0.4238, train acc 69.71%, f1 0.6793, precision 0.5383, recall 0.9206, auc 0.7490
+epoch 1501, loss 0.4267, train acc 70.52%, f1 0.6830, precision 0.5462, recall 0.9112, auc 0.7531
+epoch 2001, loss 0.4481, train acc 70.20%, f1 0.6806, precision 0.5432, recall 0.9112, auc 0.7506
+epoch 2501, loss 0.4317, train acc 70.85%, f1 0.6854, precision 0.5493, recall 0.9112, auc 0.7556
+epoch 3001, loss 0.4637, train acc 70.52%, f1 0.6819, precision 0.5465, recall 0.9065, auc 0.7520
+epoch 3501, loss 0.3755, train acc 74.59%, f1 0.7090, precision 0.5901, recall 0.8879, auc 0.7789
+epoch 4001, loss 0.4273, train acc 74.43%, f1 0.7087, precision 0.5877, recall 0.8925, auc 0.7788
+epoch 4501, loss 0.3749, train acc 76.06%, f1 0.7242, precision 0.6050, recall 0.9019, auc 0.7934
+running_time is 1683.736626925
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_2.csv
+./test_pima/standlization_data/pima_std_test_2.csv
+MLP_5000_0.24
+normal_0.5
+./test_pima/model_MLP_5000_0.24/record_1/MLP_5000_0.24_2
+./test_pima/result_MLP_5000_0.24_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.605
+
+the Fscore is 0.5775401069518716
+
+the precision is 0.40601503759398494
+
+the recall is 1.0
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_3.csv
+./test_pima/model_MLP_5000_0.24/record_1/MLP_5000_0.24_3
+----------------------
+
+
+
+epoch 1, loss 0.6778, train acc 34.36%, f1 0.5079, precision 0.3438, recall 0.9720, auc 0.4897
+epoch 501, loss 0.4352, train acc 67.75%, f1 0.6586, precision 0.5219, recall 0.8925, auc 0.7275
+epoch 1001, loss 0.3834, train acc 68.08%, f1 0.6644, precision 0.5243, recall 0.9065, auc 0.7333
+epoch 1501, loss 0.4320, train acc 71.82%, f1 0.6849, precision 0.5612, recall 0.8785, auc 0.7555
+epoch 2001, loss 0.4520, train acc 71.01%, f1 0.6799, precision 0.5526, recall 0.8832, auc 0.7503
+epoch 2501, loss 0.5235, train acc 71.99%, f1 0.6873, precision 0.5625, recall 0.8832, auc 0.7578
+epoch 3001, loss 0.3747, train acc 73.45%, f1 0.6987, precision 0.5780, recall 0.8832, auc 0.7691
+epoch 3501, loss 0.3315, train acc 73.94%, f1 0.7026, precision 0.5833, recall 0.8832, auc 0.7728
+epoch 4001, loss 0.4195, train acc 73.13%, f1 0.6950, precision 0.5749, recall 0.8785, auc 0.7655
+epoch 4501, loss 0.3775, train acc 74.59%, f1 0.7090, precision 0.5901, recall 0.8879, auc 0.7789
+running_time is 1542.5962697270002
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_3.csv
+./test_pima/standlization_data/pima_std_test_3.csv
+MLP_5000_0.24
+normal_0.5
+./test_pima/model_MLP_5000_0.24/record_1/MLP_5000_0.24_3
+./test_pima/result_MLP_5000_0.24_normal_0.5/record_1/
+----------------------
+
+
+
+the AUC is 0.515
+
+the Fscore is 0.526829268292683
+
+the precision is 0.3576158940397351
+
+the recall is 1.0
+
+Done
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/externals/joblib/__init__.py:15: FutureWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=FutureWarning)
+/home/z5102138/anaconda3/envs/py36/lib/python3.6/site-packages/torch/cuda/__init__.py:104: UserWarning: 
+A100-PCIE-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the A100-PCIE-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+./test_pima/standlization_data/pima_std_train_4.csv
+./test_pima/model_MLP_5000_0.24/record_1/MLP_5000_0.24_4
+----------------------
+
+
+
+epoch 1, loss 0.5940, train acc 43.90%, f1 0.5106, precision 0.3673, recall 0.8372, auc 0.5311
+epoch 501, loss 0.3385, train acc 71.54%, f1 0.6892, precision 0.5575, recall 0.9023, auc 0.7587
+epoch 1001, loss 0.3771, train acc 71.54%, f1 0.6835, precision 0.5592, recall 0.8791, auc 0.7533
+epoch 1501, loss 0.4832, train acc 72.68%, f1 0.6889, precision 0.5723, recall 0.8651, auc 0.7588
+epoch 2001, loss 0.3862, train acc 74.15%, f1 0.7039, precision 0.5870, recall 0.8791, auc 0.7733
+epoch 2501, loss 0.5305, train acc 73.98%, f1 0.7015, precision 0.5857, recall 0.8744, auc 0.7710
+epoch 3001, loss 0.4284, train acc 74.80%, f1 0.7092, precision 0.5943, recall 0.8791, auc 0.7783
+epoch 3501, loss 0.3897, train acc 75.77%, f1 0.7151, precision 0.6071, recall 0.8698, auc 0.7836
+epoch 4001, loss 0.2956, train acc 75.77%, f1 0.7173, precision 0.6058, recall 0.8791, auc 0.7858
+epoch 4501, loss 0.4875, train acc 77.56%, f1 0.7326, precision 0.6279, recall 0.8791, auc 0.7995
+running_time is 1719.6136940229999
+=>> PBS: job killed: walltime 43298 exceeded limit 43200
