@@ -21,53 +21,26 @@
 import sys
 import os
 import math
-# dataset_dict = {
-#     1: ['yeast3', 'glass0', 'pima'],
-#     2: ['yeast5', 'glass5', 'vehicle0'],
-#     3: ['yeast6', 'ecoli1'],
-#     4: ['abalone19', 'pageblocks1']
-# }
 
 dataset_list = ['abalone19', 'ecoli1', 'glass0', 'glass5', 'pageblocks1', 'pima', 'vehicle0', 'yeast3', 'yeast5', 'yeast6']
-# dataset_list = ['ecoli1', 'glass0', 'glass5', 'pageblocks1', 'yeast3', 'yeast5', 'yeast6']
-
-# dataset_dict = {
-#     1 : ['yeast3', 'glass0', 'pima'],
-#     2 : ['yeast5', 'glass5', 'vehicle0'],
-#     3 : ['yeast6', 'ecoli1'],
-#     4 : ['abalone19', 'pageblocks1']
-# }
-
-device_id_map = {
-    1 : 0,
-    2 : 0,
-    3 : 1,
-    4 : 1
-}
 
 data_range = 5
 record_index = 1
 bash_file_name_prefix = 'train_mlp_'
-# device_id_dict = {'2':'1', '3':'2', '4':'3', '5':'4', '7':'5'}
 
-# sample_list = ['balance', 'IR']
 early_stop_type_list = [ '30000', '25000', '20000', '15000', '10000', '8000', '5000', '2000']
 
 alpha_list = []
-# for i in range(10):
-#     alpha_list.append(float(i)/100)
 
 for i in range(0, 40, 1):
     alpha_list.append(float(i)/100)
 
 # early stop 效果不太明显， 结果不太好
 
+# for i in range(0, 50, 1):
+#     threshold_list.append(float(i)/100)
 threshold_list = [0.5]
 
-
-
-# for file_index in dataset_dict:
-    # dataset_list = dataset_dict[file_index]
 device_id = 0
 
 command_list = []
@@ -98,26 +71,12 @@ for dataset in dataset_list:
                 if len(cur_command_list) != 0:
                     command_list.append(cur_command_list)
 
-
-
-
-                            # for dataset_index in range(1, 6):
-                            #     cur_command_list.append('python3 ./classifier_MLP/train_MLP.py dataset_name={0} dataset_index={1} record_index=1 device_id={2} train_method={3}\n'.format(dataset, dataset_index, device_id, train_method))
-                            #     cur_command_list.append('python3 ./classifier_MLP/test.py dataset_name={0} dataset_index={1} record_index=1 train_method={2} test_method={3} device_id={4}\n'.format(dataset, dataset_index, train_method, test_method, device_id))
-                            
-                            # cur_command_list.append('\n\n\n')
-                            # command_list.append(cur_command_list)
-        
-
 total_file_num = 8
 total_length = len(command_list)
 start = 0
 offset = math.ceil(float(total_length)/total_file_num)
-# print(total_length)
-# print(offset)
+
 for file_index in range(1, total_file_num+1):
-    # print(file_index)
-    # print(start, offset)
     if file_index < total_file_num:
         cur_command_list = command_list[start:start + offset]
         start += offset
@@ -135,10 +94,10 @@ for file_index in range(1, total_file_num+1):
         fsh.write('#PBS -M han.tai@student.unsw.edu.au\n')
         fsh.write('#PBS -m ae\n')
         fsh.write('#PBS -j oe\n\n')
-        fsh.write('#PBS -o /srv/scratch/z5102138/test_new_loss_v4/\n')
+        fsh.write('#PBS -o /srv/scratch/z5102138/test_new_loss_v4_katana/\n')
         fsh.write('source ~/anaconda3/etc/profile.d/conda.sh\n')
         fsh.write('conda activate py36\n\n\n')
-        fsh.write('cd /srv/scratch/z5102138/test_new_loss_v4\n')
+        fsh.write('cd /srv/scratch/z5102138/test_new_loss_v4_katana\n')
         fsh.write('which python\n\n\n\n')
         for item_command_list in cur_command_list:
             for line in item_command_list:
