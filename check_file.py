@@ -14,21 +14,14 @@ bash_file_name_prefix = 'train_mlp_'
 early_stop_type_list = [ '30000', '25000', '20000', '15000', '10000', '8000', '5000', '2000']
 
 alpha_list = []
-# for i in range(10):
-#     alpha_list.append(float(i)/100)
 
 for i in range(0, 40, 1):
     alpha_list.append(float(i)/100)
-
-# early stop 效果不太明显， 结果不太好
 
 threshold_list = []
 
 for i in range(0, 50, 1):
     threshold_list.append(float(i)/100)
-
-for file_index in dataset_dict:
-    dataset_list = dataset_dict[file_index]
 
 command_list = []
 for dataset in dataset_list:
